@@ -1,0 +1,127 @@
+﻿<![LOG[==========[ uisetup started in process 4168 ]==========]LOG]!><time="19:51:39.957+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:418">
+<![LOG[UI Setup invoked with args - "C:\Program Files\Microsoft Configuration Manager\bin\I386\ConsoleSetup.exe" LangPackDir="C:\Program Files\Microsoft Configuration Manager\bin\i386\LanguagePack" TargetDir="C:\Program Files (x86)\Microsoft Configuration Manager\AdminConsole" DEFAULTSITESERVERNAME="CM1.corp.contoso.com" /q]LOG]!><time="19:51:39.957+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:583">
+<![LOG[Directory does not exists - ]LOG]!><time="19:51:39.957+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:679">
+<![LOG[Failed to read Console extension keys from registry. Error code = 0x80070002]LOG]!><time="19:51:39.957+480" date="02-26-2023" component="" context="" type="2" thread="4452" file="util.cpp:204">
+<![LOG[Created temp - C:\Program Files (x86)\ConfigMgr10]LOG]!><time="19:51:39.957+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:181">
+<![LOG[Created temp - C:\Program Files (x86)\ConfigMgr10\AdminconsoleSetup\]LOG]!><time="19:51:39.957+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:185">
+<![LOG[Created temp - C:\Program Files (x86)\ConfigMgr10\AdminconsoleSetup\{5A33F442-E700-48A8-AEF7-80AF733D100E}\]LOG]!><time="19:51:39.957+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:195">
+<![LOG[Copying Adminconsole.msi to C:\Program Files (x86)\ConfigMgr10\AdminconsoleSetup\{5A33F442-E700-48A8-AEF7-80AF733D100E}\\Adminconsole.msi]LOG]!><time="19:51:39.957+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:967">
+<![LOG[Copying Completed]LOG]!><time="19:51:40.004+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:970">
+<![LOG[Default UI lang code 1033]LOG]!><time="19:51:40.004+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="util.cpp:50">
+<![LOG[Language code found 1033]LOG]!><time="19:51:40.004+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:973">
+<![LOG[Language Locale found 1033]LOG]!><time="19:51:40.004+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:974">
+<![LOG[Setting LangPackDir to C:\Program Files\Microsoft Configuration Manager\bin\I386\LanguagePack]LOG]!><time="19:51:40.004+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:983">
+<![LOG[Scaning for MSPs under C:\Program Files\Microsoft Configuration Manager\bin\I386\LanguagePack]LOG]!><time="19:51:40.004+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:1013">
+<![LOG[Scanning for ReportViewerLP_*s under C:\Program Files\Microsoft Configuration Manager\bin\I386\LanguagePack]LOG]!><time="19:51:40.004+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:1045">
+<![LOG[Cannot find MSPs]LOG]!><time="19:51:40.004+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:1074">
+<![LOG[Cannot find ReportViewerLP_*s]LOG]!><time="19:51:40.004+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:1079">
+<![LOG[New console product version is 5.2203.1063.1000]LOG]!><time="19:51:40.019+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="msiutil.cpp:952">
+<![LOG[Installed console product version is ]LOG]!><time="19:51:40.019+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="msiutil.cpp:961">
+<![LOG[MSI PROPERTIES are  INSTALL=ALL ALLUSERS=1 TARGETDIR="C:\Program Files (x86)\Microsoft Configuration Manager\AdminConsole" DEFAULTSITESERVERNAME=CM1.corp.contoso.com ADDLOCAL="AdminConsole,SCUIFramework" ]LOG]!><time="19:51:40.019+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:1392">
+<![LOG[Running installation package
+  Package:     C:\Program Files (x86)\ConfigMgr10\AdminconsoleSetup\{5A33F442-E700-48A8-AEF7-80AF733D100E}\\Adminconsole.msi
+  Log:         C:\ConfigMgrAdminUISetupVerbose.log
+  Properties:   INSTALL=ALL ALLUSERS=1 TARGETDIR="C:\Program Files (x86)\Microsoft Configuration Manager\AdminConsole" DEFAULTSITESERVERNAME=CM1.corp.contoso.com ADDLOCAL="AdminConsole,SCUIFramework" ]LOG]!><time="19:51:40.019+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="msiutil.cpp:639">
+<![LOG[MSI: Action 19:51:40: INSTALL. ]LOG]!><time="19:51:40.410+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: AdminConsolePrereqCheck. Checking Configuration Manager Console prerequisites]LOG]!><time="19:51:40.410+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: LaunchConditions. Evaluating launch conditions]LOG]!><time="19:51:40.457+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: AppSearch. Searching for installed applications]LOG]!><time="19:51:40.457+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: CCPSearch. Searching for qualifying products]LOG]!><time="19:51:40.457+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: RMCCPSearch. Searching for qualifying products]LOG]!><time="19:51:40.457+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: ValidateProductID. ]LOG]!><time="19:51:40.457+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: CcmSetPrimaryFolder. ]LOG]!><time="19:51:40.457+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: FindRelatedProducts. Searching for related applications]LOG]!><time="19:51:40.457+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: CostInitialize. Computing space requirements]LOG]!><time="19:51:40.457+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: FileCost. Computing space requirements]LOG]!><time="19:51:40.457+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: ADMINCONSOLESHORTCUTDIR.DDB76729_60A9_43F4_8F20_2913FF34BF7C. ]LOG]!><time="19:51:40.457+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: CostFinalize. Computing space requirements]LOG]!><time="19:51:40.457+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: MigrateFeatureStates. Migrating feature states from related applications]LOG]!><time="19:51:40.472+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: CcmSuppressReboot. Suppress machine reboot after installation.]LOG]!><time="19:51:40.472+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: InstallValidate. Validating install]LOG]!><time="19:51:40.472+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: RemoveExistingProducts. Removing applications]LOG]!><time="19:51:40.550+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: InstallInitialize. ]LOG]!><time="19:51:40.566+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: AllocateRegistrySpace. Allocating registry space]LOG]!><time="19:51:40.566+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: ProcessComponents. Updating component registration]LOG]!><time="19:51:40.566+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: GenerateScript. Generating script operations for action:]LOG]!><time="19:51:40.800+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: MsiUnpublishAssemblies. Unpublishing assembly information Application Context:[1], Assembly Name:[2]]LOG]!><time="19:51:40.832+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: UnpublishComponents. Unpublishing Qualified Components]LOG]!><time="19:51:40.832+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: UnpublishFeatures. Unpublishing Product Features]LOG]!><time="19:51:40.832+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: StopServices. Stopping services]LOG]!><time="19:51:40.832+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: DeleteServices. Deleting services]LOG]!><time="19:51:40.832+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: SelfUnregModules. Unregistering modules]LOG]!><time="19:51:40.832+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: UnregisterTypeLibraries. Unregistering type libraries]LOG]!><time="19:51:40.832+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: RemoveRegistryValues. Removing system registry values]LOG]!><time="19:51:40.832+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: UnregisterClassInfo. Unregister Class servers]LOG]!><time="19:51:40.832+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: UnregisterExtensionInfo. Unregistering extension servers]LOG]!><time="19:51:40.832+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: UnregisterProgIdInfo. Unregistering program identifiers]LOG]!><time="19:51:40.847+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: RemoveIniValues. Removing INI files entries]LOG]!><time="19:51:40.847+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: RemoveShortcuts. Removing shortcuts]LOG]!><time="19:51:40.847+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: RemoveFiles. Removing files]LOG]!><time="19:51:40.847+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: RemoveFolders. Removing folders]LOG]!><time="19:51:40.847+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: CreateFolders. Creating folders]LOG]!><time="19:51:40.847+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: MoveFiles. Moving files]LOG]!><time="19:51:40.879+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:40: InstallFiles. Copying new files]LOG]!><time="19:51:40.879+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: PatchFiles. Patching files]LOG]!><time="19:51:41.238+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: BindImage. Binding executables]LOG]!><time="19:51:41.238+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: CreateShortcuts. Creating shortcuts]LOG]!><time="19:51:41.238+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: RegisterClassInfo. Registering Class servers]LOG]!><time="19:51:41.238+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: RegisterExtensionInfo. Registering extension servers]LOG]!><time="19:51:41.238+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: RegisterProgIdInfo. Registering program identifiers]LOG]!><time="19:51:41.238+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: InstallUtilInit. Initializing InstallUtil.exe]LOG]!><time="19:51:41.254+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: InstallUtil. Calling InstallUtil.exe]LOG]!><time="19:51:41.300+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: WriteRegistryValues. Writing system registry values]LOG]!><time="19:51:41.300+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: WriteIniValues. Writing INI files values]LOG]!><time="19:51:41.316+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: RegisterTypeLibraries. Registering type libraries]LOG]!><time="19:51:41.316+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: SelfRegModules. Registering modules]LOG]!><time="19:51:41.316+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: RegisterProduct. Registering product]LOG]!><time="19:51:41.316+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: PublishComponents. Publishing Qualified Components]LOG]!><time="19:51:41.316+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: MsiPublishAssemblies. Publishing assembly information Application Context:[1], Assembly Name:[2]]LOG]!><time="19:51:41.332+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: PublishFeatures. Publishing Product Features]LOG]!><time="19:51:41.332+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: PublishProduct. Publishing product information]LOG]!><time="19:51:41.332+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: RegisterUser. Registering user]LOG]!><time="19:51:41.332+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: ResetExtension. Resetting Console extensions]LOG]!><time="19:51:41.332+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:41: CcmSetObjectSecurityInit. Applying security permissions]LOG]!><time="19:51:41.332+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:42: CcmSetObjectSecurity. Applying security permissions]LOG]!><time="19:51:42.941+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:42: InstallServices. Installing new services]LOG]!><time="19:51:42.941+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:42: SetUIPath32. Set the UI path for x86]LOG]!><time="19:51:42.957+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:42: WriteEnvironmentStrings. Updating environment strings]LOG]!><time="19:51:42.957+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:42: BroadcastAdminUIPathAdd. Broadcast the adminui path add.]LOG]!><time="19:51:42.957+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:58: StartServices. Starting services]LOG]!><time="19:51:58.037+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:58: InstallFinalize. ]LOG]!><time="19:51:58.037+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:58: ProcessComponents. Updating component registration]LOG]!><time="19:51:58.053+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:58: CreateFolders. Creating folders]LOG]!><time="19:51:58.131+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:51:58: InstallFiles. Copying new files]LOG]!><time="19:51:58.224+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:52:00: CreateShortcuts. Creating shortcuts]LOG]!><time="19:52:00.584+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:52:00: InstallUtil. Calling InstallUtil.exe]LOG]!><time="19:52:00.599+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:52:20: WriteRegistryValues. Writing system registry values]LOG]!><time="19:52:20.381+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:52:20: RegisterProduct. Registering product]LOG]!><time="19:52:20.397+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:52:20: PublishFeatures. Publishing Product Features]LOG]!><time="19:52:20.444+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:52:20: PublishProduct. Publishing product information]LOG]!><time="19:52:20.444+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:52:20: ResetExtension. Resetting Console extensions]LOG]!><time="19:52:20.459+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:52:20: CcmSetObjectSecurity. Applying security permissions]LOG]!><time="19:52:20.459+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:52:20: WriteEnvironmentStrings. Updating environment strings]LOG]!><time="19:52:20.647+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[MSI: Action 19:52:20: RollbackCleanup. Removing backup files]LOG]!><time="19:52:20.725+480" date="02-26-2023" component="" context="" type="0" thread="4452" file="msiutil.cpp:373">
+<![LOG[Installation succeeded.]LOG]!><time="19:52:20.850+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="msiutil.cpp:702">
+<![LOG[Installing VcRedist from "C:\Program Files (x86)\Microsoft Configuration Manager\AdminConsole\Bin\vcredist_x86.exe" /q /norestart]LOG]!><time="19:52:20.850+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:1133">
+<![LOG[VCRedist install successfull]LOG]!><time="19:52:21.881+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:1140">
+<![LOG[Installing ReportViewer from "C:\Program Files (x86)\Microsoft Configuration Manager\AdminConsole\Bin\ReportViewer.exe" /q]LOG]!><time="19:52:21.881+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:1163">
+<![LOG[ReportViewer install successfull]LOG]!><time="19:52:25.756+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:1170">
+<![LOG[Install successfull]LOG]!><time="19:52:25.756+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:1192">
+<![LOG[Copying ConfigMgr.AC_Extension.amd64.cab to C:\Program Files (x86)\ConfigMgr10\AdminconsoleSetup\{5A33F442-E700-48A8-AEF7-80AF733D100E}\ConfigMgr.AC_Extension.amd64.cab]LOG]!><time="19:52:25.756+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:811">
+<![LOG[Copying Completed]LOG]!><time="19:52:25.771+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:814">
+<![LOG[Copying ConfigMgr.AC_Extension.i386.cab to C:\Program Files (x86)\ConfigMgr10\AdminconsoleSetup\{5A33F442-E700-48A8-AEF7-80AF733D100E}\ConfigMgr.AC_Extension.i386.cab]LOG]!><time="19:52:25.771+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:818">
+<![LOG[Copying Completed]LOG]!><time="19:52:25.802+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:821">
+<![LOG[Verifying cabinet signatures...]LOG]!><time="19:52:25.802+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:833">
+<![LOG[C:\Program Files (x86)\ConfigMgr10\AdminconsoleSetup\{5A33F442-E700-48A8-AEF7-80AF733D100E}\ConfigMgr.AC_Extension.amd64.cab is Microsoft trusted.]LOG]!><time="19:52:25.927+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="CcmCert.cpp:6140">
+<![LOG[C:\Program Files (x86)\ConfigMgr10\AdminconsoleSetup\{5A33F442-E700-48A8-AEF7-80AF733D100E}\ConfigMgr.AC_Extension.i386.cab is Microsoft trusted.]LOG]!><time="19:52:26.037+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="CcmCert.cpp:6140">
+<![LOG[Cabinet signatures verified.]LOG]!><time="19:52:26.037+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:836">
+<![LOG[Extracting cab files...]LOG]!><time="19:52:26.037+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:839">
+<![LOG[Extraction successful!]LOG]!><time="19:52:27.177+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:841">
+<![LOG[Opening file...]LOG]!><time="19:52:27.177+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:844">
+<![LOG[versionFilePath: C:\Program Files (x86)\Microsoft Configuration Manager\AdminConsole\bin\Version.txt]LOG]!><time="19:52:27.177+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:848">
+<![LOG[Scanning file...]LOG]!><time="19:52:27.177+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:853">
+<![LOG[ReadFileTest Contents: 5.0.9078.1005]LOG]!><time="19:52:27.177+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:856">
+<![LOG[Storing cab version in registry...]LOG]!><time="19:52:27.177+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:857">
+<![LOG[Successfully wrote version to registry.]LOG]!><time="19:52:27.177+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:862">
+<![LOG[Required Component Installation Complete!]LOG]!><time="19:52:27.177+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:874">
+<![LOG[Starting to execute install extensions command line C:\Program Files (x86)\Microsoft Configuration Manager\AdminConsole\bin\AdminUI.ExtensionInstaller.exe VerifyCustomExtensions SiteServerName=CM1.corp.contoso.com /nc.]LOG]!><time="19:52:27.177+480" date="02-26-2023" component="" context="" type="1" thread="4452" file="uisetup.cpp:475">

@@ -1,0 +1,40 @@
+﻿<Sun Feb 26 19:54:46 2023> ====================================================================
+﻿<Sun Feb 26 19:54:46 2023> SMSMP Setup Started....
+﻿<Sun Feb 26 19:54:46 2023> Parameters: C:\Program Files\Microsoft Configuration Manager\bin\x64\rolesetup.exe /install /siteserver:CM1 SMSMP 0
+﻿<Sun Feb 26 19:54:46 2023> Installing Pre Reqs for SMSMP
+﻿<Sun Feb 26 19:54:46 2023>         ======== Installing Pre Reqs for Role SMSMP ========
+﻿<Sun Feb 26 19:54:46 2023> Found 1 Pre Reqs for Role SMSMP 
+﻿<Sun Feb 26 19:54:46 2023> Pre Req SqlNativeClient found.
+﻿<Sun Feb 26 19:54:46 2023> SqlNativeClient is already installed (Product Code: {9D93D367-A2CC-4378-BD63-79EF3FE76C78}). But to support TLS1.2, a new version with Product Code: {B9274744-8BAE-4874-8E59-2610919CD419} needs to be manually installed 
+﻿<Sun Feb 26 19:54:46 2023> Pre Req SqlNativeClient is already installed. Skipping it.
+﻿<Sun Feb 26 19:54:46 2023>         ======== Completed Installation of Pre Reqs for Role SMSMP ========
+﻿<Sun Feb 26 19:54:46 2023> Installing the SMSMP
+﻿<Sun Feb 26 19:54:46 2023> Passed OS version check.
+﻿<Sun Feb 26 19:54:46 2023> IIS Service is installed.
+﻿<Sun Feb 26 19:54:46 2023> No versions of SMSMP are installed.  Installing new SMSMP.
+﻿<Sun Feb 26 19:54:46 2023> Enabling MSI logging.  mp.msi will log to C:\Program Files\Microsoft Configuration Manager\logs\mpMSI.log
+﻿<Sun Feb 26 19:54:46 2023> Installing C:\Program Files\Microsoft Configuration Manager\bin\x64\mp.msi CCMINSTALLDIR="C:\Program Files\SMS_CCM" CCMSERVERDATAROOT="C:\Program Files\Microsoft Configuration Manager" USESMSPORTS=TRUE SMSPORTS=80 USESMSSSLPORTS=TRUE SMSSSLPORTS=443 USESMSSSL=TRUE SMSSSLSTATE=1024 CCMENABLELOGGING=TRUE CCMLOGLEVEL=1 CCMLOGMAXSIZE=1000000 CCMLOGMAXHISTORY=1
+﻿<Sun Feb 26 19:55:13 2023> mp.msi exited with return code: 1603
+﻿<Sun Feb 26 19:55:13 2023> Backing up C:\Program Files\Microsoft Configuration Manager\logs\mpMSI.log to C:\Program Files\Microsoft Configuration Manager\logs\mpMSI.log.LastError
+﻿<Sun Feb 26 19:55:13 2023> Fatal MSI Error - mp.msi could not be installed.
+﻿<Sun Feb 26 19:55:13 2023> ~RoleSetup().
+﻿<Sun Feb 26 19:55:36 2023> ====================================================================
+﻿<Sun Feb 26 19:55:36 2023> SMSMP Setup Started....
+﻿<Sun Feb 26 19:55:36 2023> Parameters: C:\Program Files\Microsoft Configuration Manager\bin\x64\rolesetup.exe /install /siteserver:CM1 SMSMP 0
+﻿<Sun Feb 26 19:55:36 2023> Installing Pre Reqs for SMSMP
+﻿<Sun Feb 26 19:55:36 2023>         ======== Installing Pre Reqs for Role SMSMP ========
+﻿<Sun Feb 26 19:55:36 2023> Found 1 Pre Reqs for Role SMSMP 
+﻿<Sun Feb 26 19:55:36 2023> Pre Req SqlNativeClient found.
+﻿<Sun Feb 26 19:55:36 2023> SqlNativeClient is already installed (Product Code: {9D93D367-A2CC-4378-BD63-79EF3FE76C78}). But to support TLS1.2, a new version with Product Code: {B9274744-8BAE-4874-8E59-2610919CD419} needs to be manually installed 
+﻿<Sun Feb 26 19:55:36 2023> Pre Req SqlNativeClient is already installed. Skipping it.
+﻿<Sun Feb 26 19:55:36 2023>         ======== Completed Installation of Pre Reqs for Role SMSMP ========
+﻿<Sun Feb 26 19:55:36 2023> Installing the SMSMP
+﻿<Sun Feb 26 19:55:36 2023> Passed OS version check.
+﻿<Sun Feb 26 19:55:36 2023> IIS Service is installed.
+﻿<Sun Feb 26 19:55:36 2023> No versions of SMSMP are installed.  Installing new SMSMP.
+﻿<Sun Feb 26 19:55:36 2023> Enabling MSI logging.  mp.msi will log to C:\Program Files\Microsoft Configuration Manager\logs\mpMSI.log
+﻿<Sun Feb 26 19:55:36 2023> Installing C:\Program Files\Microsoft Configuration Manager\bin\x64\mp.msi CCMINSTALLDIR="C:\Program Files\SMS_CCM" CCMSERVERDATAROOT="C:\Program Files\Microsoft Configuration Manager" USESMSPORTS=TRUE SMSPORTS=80 USESMSSSLPORTS=TRUE SMSSSLPORTS=443 USESMSSSL=TRUE SMSSSLSTATE=1024 CCMENABLELOGGING=TRUE CCMLOGLEVEL=1 CCMLOGMAXSIZE=1000000 CCMLOGMAXHISTORY=1
+﻿<Sun Feb 26 19:55:49 2023> mp.msi exited with return code: 1603
+﻿<Sun Feb 26 19:55:49 2023> Backing up C:\Program Files\Microsoft Configuration Manager\logs\mpMSI.log to C:\Program Files\Microsoft Configuration Manager\logs\mpMSI.log.LastError
+﻿<Sun Feb 26 19:55:49 2023> Fatal MSI Error - mp.msi could not be installed.
+﻿<Sun Feb 26 19:55:49 2023> ~RoleSetup().

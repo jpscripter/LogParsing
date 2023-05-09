@@ -1,0 +1,12 @@
+﻿<![LOG[Successfully subscribed listener to registry key.]LOG]!><time="19:53:32.2621373" date="2-26-2023" component="SMS_CloudConnection_CoMgmtGraphConnector" context="" type="1" thread="26" file="">
+<![LOG[Component SMS_CLOUDCONNECTION, CoMgmt Graph Connector started]LOG]!><time="19:53:32.2621373" date="2-26-2023" component="SMS_CloudConnection_CoMgmtGraphConnector" context="" type="1" thread="26" file="">
+<![LOG[Authority is: , DataWarehouseUrl is: , ApplicationId is: . Will retry later...]LOG]!><time="19:53:32.2777626" date="2-26-2023" component="SMS_CloudConnection_CoMgmtGraphConnector" context="" type="2" thread="26" file="">
+<![LOG[Successfully subscribed listener to registry key.]LOG]!><time="19:55:26.6266708" date="2-26-2023" component="SMS_CloudConnection_CoMgmtGraphConnector" context="" type="1" thread="17" file="">
+<![LOG[Component SMS_CLOUDCONNECTION, CoMgmt Graph Connector started]LOG]!><time="19:55:26.6266708" date="2-26-2023" component="SMS_CloudConnection_CoMgmtGraphConnector" context="" type="1" thread="17" file="">
+<![LOG[Authority is: , DataWarehouseUrl is: , ApplicationId is: . Will retry later...]LOG]!><time="19:55:26.7360499" date="2-26-2023" component="SMS_CloudConnection_CoMgmtGraphConnector" context="" type="2" thread="17" file="">
+<![LOG[Successfully subscribed listener to registry key.]LOG]!><time="19:55:44.0485732" date="2-26-2023" component="SMS_CloudConnection_CoMgmtGraphConnector" context="" type="1" thread="80" file="">
+<![LOG[Component SMS_CLOUDCONNECTION, CoMgmt Graph Connector started]LOG]!><time="19:55:44.0485732" date="2-26-2023" component="SMS_CloudConnection_CoMgmtGraphConnector" context="" type="1" thread="80" file="">
+<![LOG[Authority is: , DataWarehouseUrl is: , ApplicationId is: . Will retry later...]LOG]!><time="19:55:44.0485732" date="2-26-2023" component="SMS_CloudConnection_CoMgmtGraphConnector" context="" type="2" thread="80" file="">
+<![LOG[Successfully subscribed listener to registry key.]LOG]!><time="19:56:04.1278047" date="2-26-2023" component="SMS_CloudConnection_CoMgmtGraphConnector" context="" type="1" thread="12" file="">
+<![LOG[Component SMS_CLOUDCONNECTION, CoMgmt Graph Connector started]LOG]!><time="19:56:04.1278047" date="2-26-2023" component="SMS_CloudConnection_CoMgmtGraphConnector" context="" type="1" thread="12" file="">
+<![LOG[Authority is: , DataWarehouseUrl is: , ApplicationId is: . Will retry later...]LOG]!><time="19:56:04.1902999" date="2-26-2023" component="SMS_CloudConnection_CoMgmtGraphConnector" context="" type="2" thread="12" file="">

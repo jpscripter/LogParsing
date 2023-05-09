@@ -1,0 +1,28 @@
+﻿SMS_EXECUTIVE started SMS_OFFER_MANAGER as thread ID 6988 (0x1B4C).  $$<SMS_OFFER_MANAGER><02-26-2023 19:53:11.371+480><thread=3604 (0xE14)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_OFFER_MANAGER><02-26-2023 19:53:11.371+480><thread=6988 (0x1B4C)>
+~Created inbox def 54, Offer Manager  $$<SMS_OFFER_MANAGER><02-26-2023 19:53:11.387+480><thread=6988 (0x1B4C)>
+~Created inbox def 55, Offer Manager (Incoming)  $$<SMS_OFFER_MANAGER><02-26-2023 19:53:11.387+480><thread=6988 (0x1B4C)>
+~Waiting for the inbox manager to create the inboxes, retry in 10 seconds.  $$<SMS_OFFER_MANAGER><02-26-2023 19:53:11.402+480><thread=6988 (0x1B4C)>
+~Starting thread for processing replication,thread ID = 2240  $$<SMS_OFFER_MANAGER><02-26-2023 19:53:21.668+480><thread=6988 (0x1B4C)>
+~Waiting for changes...  $$<SMS_OFFER_MANAGER><02-26-2023 19:53:21.762+480><thread=6988 (0x1B4C)>
+~Processing New offer CHQ20000  $$<SMS_OFFER_MANAGER><02-26-2023 19:53:45.977+480><thread=6988 (0x1B4C)>
+STATMSG: ID=3900 SEV=I LEV=M SOURCE="SMS Server" COMP="SMS_OFFER_MANAGER" SYS=CM1.CORP.CONTOSO.COM SITE=CHQ PID=2944 TID=6988 GMTDATE=Mon Feb 27 03:53:45.978 2023 ISTR0="Configuration Manager Client Automatic Client Upgrade Deployment" ISTR1="" ISTR2="" ISTR3="" ISTR4="" ISTR5="" ISTR6="" ISTR7="" ISTR8="" ISTR9="" NUMATTRS=1 LE=0X0 AID0=401 AVAL0="CHQ20000"  $$<SMS_OFFER_MANAGER><02-26-2023 19:53:45.978+480><thread=6988 (0x1B4C)>
+Examining collection: SMS00001  $$<SMS_OFFER_MANAGER><02-26-2023 19:53:46.134+480><thread=6988 (0x1B4C)>
+Advanced client offer changes detected for collection SMS00001, 1 added and 0 deleted.  $$<SMS_OFFER_MANAGER><02-26-2023 19:53:46.229+480><thread=6988 (0x1B4C)>
+~Prepared policies based on 1 offer(s)  for 1 resources in collection SMS00001  $$<SMS_OFFER_MANAGER><02-26-2023 19:53:46.230+480><thread=6988 (0x1B4C)>
+~Waiting for changes...  $$<SMS_OFFER_MANAGER><02-26-2023 19:53:46.257+480><thread=6988 (0x1B4C)>
+~Waiting for changes...  $$<SMS_OFFER_MANAGER><02-26-2023 19:53:51.263+480><thread=6988 (0x1B4C)>
+SMS_EXECUTIVE started SMS_OFFER_MANAGER as thread ID 7188 (0x1C14).  $$<SMS_OFFER_MANAGER><02-26-2023 19:55:27.236+480><thread=3768 (0xEB8)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_OFFER_MANAGER><02-26-2023 19:55:27.251+480><thread=7188 (0x1C14)>
+~Starting thread for processing replication,thread ID = 1C4C  $$<SMS_OFFER_MANAGER><02-26-2023 19:55:27.314+480><thread=7188 (0x1C14)>
+Examining collection: SMS00001  $$<SMS_OFFER_MANAGER><02-26-2023 19:55:27.923+480><thread=7188 (0x1C14)>
+Advanced client offer changes detected for collection SMS00001, 1 added and 0 deleted.  $$<SMS_OFFER_MANAGER><02-26-2023 19:55:28.095+480><thread=7188 (0x1C14)>
+~Prepared policies based on 1 offer(s)  for 1 resources in collection SMS00001  $$<SMS_OFFER_MANAGER><02-26-2023 19:55:28.095+480><thread=7188 (0x1C14)>
+~Waiting for changes...  $$<SMS_OFFER_MANAGER><02-26-2023 19:55:28.126+480><thread=7188 (0x1C14)>
+SMS_EXECUTIVE started SMS_OFFER_MANAGER as thread ID 7200 (0x1C20).  $$<SMS_OFFER_MANAGER><02-26-2023 19:56:04.737+480><thread=3488 (0xDA0)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_OFFER_MANAGER><02-26-2023 19:56:04.752+480><thread=7200 (0x1C20)>
+~Starting thread for processing replication,thread ID = 1C3C  $$<SMS_OFFER_MANAGER><02-26-2023 19:56:04.846+480><thread=7200 (0x1C20)>
+Examining collection: SMS00001  $$<SMS_OFFER_MANAGER><02-26-2023 19:56:05.518+480><thread=7200 (0x1C20)>
+Advanced client offer changes detected for collection SMS00001, 1 added and 0 deleted.  $$<SMS_OFFER_MANAGER><02-26-2023 19:56:05.596+480><thread=7200 (0x1C20)>
+~Prepared policies based on 1 offer(s)  for 1 resources in collection SMS00001  $$<SMS_OFFER_MANAGER><02-26-2023 19:56:05.596+480><thread=7200 (0x1C20)>
+~Waiting for changes...  $$<SMS_OFFER_MANAGER><02-26-2023 19:56:05.612+480><thread=7200 (0x1C20)>

@@ -1,0 +1,36 @@
+﻿SMS_EXECUTIVE started SMS_EN_ADSERVICE_MONITOR as thread ID 5712 (0x1650).  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:53:11.043+480><thread=3604 (0xE14)>
+SMS_EN_ADSERVICE_MONITOR is starting...  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:53:11.058+480><thread=5712 (0x1650)>
+CADCtrl registry info - SQLServerName = CM1.corp.contoso.com; DatabaseName = ConfigMgr_CHQ; SiteNumber = 1; SiteCode = CHQ  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:53:11.058+480><thread=5712 (0x1650)>
+CADCtrl connected to SQL and initialized m_pSql  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:53:11.058+480><thread=5712 (0x1650)>
+Connecting to ADService Monitor Managed Component.  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:53:11.058+480><thread=5712 (0x1650)>
+Initializing Managed AD Monitor Service SQL params.  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:53:11.090+480><thread=5712 (0x1650)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:53:11.183+480><thread=5712 (0x1650)>
+~Created inbox def 47, Enrollment Active Directory Service Inbox  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:53:11.199+480><thread=5712 (0x1650)>
+Waiting for the inbox manager to create the inboxes and triggers, retry in 10 seconds.  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:53:11.199+480><thread=5712 (0x1650)>
+CADCtrl::InstallTrigger - Creating trigger def on EN_EnrollmentRecords for Insert, Update.  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:53:21.215+480><thread=5712 (0x1650)>
+CADCtrl::ProcessPendingRecords  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:53:21.215+480><thread=5712 (0x1650)>
+Retrieve initial service configuration suceeded  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:53:21.215+480><thread=5712 (0x1650)>
+AD Service Control control is waiting for file change notification or timeout after 15 minutes.  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:53:21.215+480><thread=5712 (0x1650)>
+Exiting SMS_EN_ADSERVICE_MONITOR thread ...  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:55:09.615+480><thread=5712 (0x1650)>
+SMS_EXECUTIVE started SMS_EN_ADSERVICE_MONITOR as thread ID 6400 (0x1900).  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:55:26.689+480><thread=3768 (0xEB8)>
+SMS_EN_ADSERVICE_MONITOR is starting...  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:55:26.689+480><thread=6400 (0x1900)>
+CADCtrl registry info - SQLServerName = CM1.corp.contoso.com; DatabaseName = ConfigMgr_CHQ; SiteNumber = 1; SiteCode = CHQ  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:55:26.689+480><thread=6400 (0x1900)>
+CADCtrl connected to SQL and initialized m_pSql  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:55:26.704+480><thread=6400 (0x1900)>
+Connecting to ADService Monitor Managed Component.  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:55:26.704+480><thread=6400 (0x1900)>
+Initializing Managed AD Monitor Service SQL params.  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:55:26.736+480><thread=6400 (0x1900)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:55:26.814+480><thread=6400 (0x1900)>
+CADCtrl::ProcessPendingRecords  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:55:26.829+480><thread=6400 (0x1900)>
+Retrieve initial service configuration suceeded  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:55:26.829+480><thread=6400 (0x1900)>
+AD Service Control control is waiting for file change notification or timeout after 15 minutes.  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:55:26.829+480><thread=6400 (0x1900)>
+Exiting SMS_EN_ADSERVICE_MONITOR thread ...  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:55:48.126+480><thread=6400 (0x1900)>
+SMS_EXECUTIVE started SMS_EN_ADSERVICE_MONITOR as thread ID 4504 (0x1198).  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:56:04.205+480><thread=3488 (0xDA0)>
+SMS_EN_ADSERVICE_MONITOR is starting...  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:56:04.205+480><thread=4504 (0x1198)>
+CADCtrl registry info - SQLServerName = CM1.corp.contoso.com; DatabaseName = ConfigMgr_CHQ; SiteNumber = 1; SiteCode = CHQ  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:56:04.205+480><thread=4504 (0x1198)>
+CADCtrl connected to SQL and initialized m_pSql  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:56:04.205+480><thread=4504 (0x1198)>
+Connecting to ADService Monitor Managed Component.  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:56:04.205+480><thread=4504 (0x1198)>
+Initializing Managed AD Monitor Service SQL params.  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:56:04.252+480><thread=4504 (0x1198)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:56:04.315+480><thread=4504 (0x1198)>
+CADCtrl::ProcessPendingRecords  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:56:04.315+480><thread=4504 (0x1198)>
+Retrieve initial service configuration suceeded  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:56:04.330+480><thread=4504 (0x1198)>
+AD Service Control control is waiting for file change notification or timeout after 15 minutes.  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:56:04.330+480><thread=4504 (0x1198)>
+Exiting SMS_EN_ADSERVICE_MONITOR thread ...  $$<SMS_EN_ADSERVICE_MONITOR><02-26-2023 19:56:28.315+480><thread=4504 (0x1198)>

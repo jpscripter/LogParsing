@@ -1,0 +1,7 @@
+﻿<![LOG[Successfully loaded Windows Imaging library.]LOG]!><time="19:50:46.266+480" date="02-26-2023" component="OSDImageProperties" context="" type="1" thread="1732" file="wimfileimp.cpp:74">
+<![LOG[Opening image file \\CM1.corp.contoso.com\SMS_CHQ\osd\boot\x64\boot.wim]LOG]!><time="19:50:46.266+480" date="02-26-2023" component="OSDImageProperties" context="" type="1" thread="1732" file="wimfile.cpp:430">
+<![LOG[Closing image file \\CM1.corp.contoso.com\SMS_CHQ\osd\boot\x64\boot.wim]LOG]!><time="19:50:46.298+480" date="02-26-2023" component="OSDImageProperties" context="" type="1" thread="1732" file="wimfile.cpp:466">
+<![LOG[Opening image file \\CM1.corp.contoso.com\SMS_CHQ\osd\boot\x64\boot.wim]LOG]!><time="19:50:46.313+480" date="02-26-2023" component="OSDImageProperties" context="" type="1" thread="1732" file="wimfile.cpp:430">
+<![LOG[Closing image file \\CM1.corp.contoso.com\SMS_CHQ\osd\boot\x64\boot.wim]LOG]!><time="19:50:46.313+480" date="02-26-2023" component="OSDImageProperties" context="" type="1" thread="1732" file="wimfile.cpp:466">
+<![LOG[Opening image file \\CM1.corp.contoso.com\SMS_CHQ\osd\boot\x64\boot.wim]LOG]!><time="19:50:46.313+480" date="02-26-2023" component="OSDImageProperties" context="" type="1" thread="1732" file="wimfile.cpp:430">
+<![LOG[Closing image file \\CM1.corp.contoso.com\SMS_CHQ\osd\boot\x64\boot.wim]LOG]!><time="19:50:46.329+480" date="02-26-2023" component="OSDImageProperties" context="" type="1" thread="1732" file="wimfile.cpp:466">

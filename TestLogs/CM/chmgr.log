@@ -1,0 +1,45 @@
+﻿SMS_EXECUTIVE started SMS_CLIENT_HEALTH as thread ID 624 (0x270).  $$<SMS_CLIENT_HEALTH><02-26-2023 19:52:16.147+480><thread=2084 (0x824)>
+============================================================================  $$<SMS_CLIENT_HEALTH><02-26-2023 19:52:16.147+480><thread=624 (0x270)>
+ThreadMain (SMS_CLIENT_HEALTH) ...  $$<SMS_CLIENT_HEALTH><02-26-2023 19:52:16.147+480><thread=624 (0x270)>
+=== SMS_SVC_CLIENT_HEALTH has Started ===  $$<SMS_CLIENT_HEALTH><02-26-2023 19:52:16.147+480><thread=624 (0x270)>
+Running primary site service.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:52:16.162+480><thread=624 (0x270)>
+Registering SQL Types.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:52:16.162+480><thread=624 (0x270)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_CLIENT_HEALTH><02-26-2023 19:52:16.162+480><thread=624 (0x270)>
+WARNING - Inbox Notification failed, Win32 error = 2. Waiting the default 30 seconds.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:52:16.162+480><thread=624 (0x270)>
+WARNING - Inbox Notification failed, Win32 error = 2. Waiting the default 30 seconds.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:52:46.178+480><thread=624 (0x270)>
+Exiting Client Health Processor.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:52:54.287+480><thread=624 (0x270)>
+SMS_CLIENT_HEALTH has Stopped.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:52:54.287+480><thread=624 (0x270)>
+SMS_EXECUTIVE started SMS_CLIENT_HEALTH as thread ID 6120 (0x17E8).  $$<SMS_CLIENT_HEALTH><02-26-2023 19:53:10.715+480><thread=3604 (0xE14)>
+============================================================================  $$<SMS_CLIENT_HEALTH><02-26-2023 19:53:10.715+480><thread=6120 (0x17E8)>
+ThreadMain (SMS_CLIENT_HEALTH) ...  $$<SMS_CLIENT_HEALTH><02-26-2023 19:53:10.715+480><thread=6120 (0x17E8)>
+=== SMS_SVC_CLIENT_HEALTH has Started ===  $$<SMS_CLIENT_HEALTH><02-26-2023 19:53:10.715+480><thread=6120 (0x17E8)>
+Running primary site service.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:53:10.715+480><thread=6120 (0x17E8)>
+Registering SQL Types.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:53:10.715+480><thread=6120 (0x17E8)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_CLIENT_HEALTH><02-26-2023 19:53:10.715+480><thread=6120 (0x17E8)>
+WARNING - Inbox Notification failed, Win32 error = 2. Waiting the default 30 seconds.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:53:10.730+480><thread=6120 (0x17E8)>
+Work completed at 2/26/2023 7:55:09 PM -0800~  $$<SMS_CLIENT_HEALTH><02-26-2023 19:55:09.615+480><thread=6120 (0x17E8)>
+Next wake up time is 2/27/2023 7:55:09 PM -0800~  $$<SMS_CLIENT_HEALTH><02-26-2023 19:55:09.631+480><thread=6120 (0x17E8)>
+Exiting Client Health Processor.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:55:09.631+480><thread=6120 (0x17E8)>
+SMS_CLIENT_HEALTH has Stopped.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:55:09.646+480><thread=6120 (0x17E8)>
+SMS_EXECUTIVE started SMS_CLIENT_HEALTH as thread ID 5684 (0x1634).  $$<SMS_CLIENT_HEALTH><02-26-2023 19:55:26.126+480><thread=3768 (0xEB8)>
+============================================================================  $$<SMS_CLIENT_HEALTH><02-26-2023 19:55:26.126+480><thread=5684 (0x1634)>
+ThreadMain (SMS_CLIENT_HEALTH) ...  $$<SMS_CLIENT_HEALTH><02-26-2023 19:55:26.142+480><thread=5684 (0x1634)>
+=== SMS_SVC_CLIENT_HEALTH has Started ===  $$<SMS_CLIENT_HEALTH><02-26-2023 19:55:26.142+480><thread=5684 (0x1634)>
+Running primary site service.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:55:26.142+480><thread=5684 (0x1634)>
+Registering SQL Types.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:55:26.142+480><thread=5684 (0x1634)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_CLIENT_HEALTH><02-26-2023 19:55:26.142+480><thread=5684 (0x1634)>
+Work completed at 2/26/2023 7:55:48 PM -0800~  $$<SMS_CLIENT_HEALTH><02-26-2023 19:55:48.126+480><thread=5684 (0x1634)>
+Next wake up time is 2/27/2023 7:55:48 PM -0800~  $$<SMS_CLIENT_HEALTH><02-26-2023 19:55:48.126+480><thread=5684 (0x1634)>
+Exiting Client Health Processor.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:55:48.126+480><thread=5684 (0x1634)>
+SMS_CLIENT_HEALTH has Stopped.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:55:48.126+480><thread=5684 (0x1634)>
+SMS_EXECUTIVE started SMS_CLIENT_HEALTH as thread ID 6388 (0x18F4).  $$<SMS_CLIENT_HEALTH><02-26-2023 19:56:03.659+480><thread=3488 (0xDA0)>
+============================================================================  $$<SMS_CLIENT_HEALTH><02-26-2023 19:56:03.659+480><thread=6388 (0x18F4)>
+ThreadMain (SMS_CLIENT_HEALTH) ...  $$<SMS_CLIENT_HEALTH><02-26-2023 19:56:03.659+480><thread=6388 (0x18F4)>
+=== SMS_SVC_CLIENT_HEALTH has Started ===  $$<SMS_CLIENT_HEALTH><02-26-2023 19:56:03.659+480><thread=6388 (0x18F4)>
+Running primary site service.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:56:03.659+480><thread=6388 (0x18F4)>
+Registering SQL Types.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:56:03.659+480><thread=6388 (0x18F4)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_CLIENT_HEALTH><02-26-2023 19:56:03.659+480><thread=6388 (0x18F4)>
+Work completed at 2/26/2023 7:56:28 PM -0800~  $$<SMS_CLIENT_HEALTH><02-26-2023 19:56:28.315+480><thread=6388 (0x18F4)>
+Next wake up time is 2/27/2023 7:56:28 PM -0800~  $$<SMS_CLIENT_HEALTH><02-26-2023 19:56:28.315+480><thread=6388 (0x18F4)>
+Exiting Client Health Processor.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:56:28.315+480><thread=6388 (0x18F4)>
+SMS_CLIENT_HEALTH has Stopped.  $$<SMS_CLIENT_HEALTH><02-26-2023 19:56:28.331+480><thread=6388 (0x18F4)>

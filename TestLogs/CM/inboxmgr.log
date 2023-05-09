@@ -1,0 +1,122 @@
+﻿SMS_EXECUTIVE started SMS_INBOX_MANAGER as thread ID 5592 (0x15D8).  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:11.183+480><thread=3604 (0xE14)>
+************ SERVICE THREAD IS STARTING ************~  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:11.183+480><thread=5592 (0x15D8)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:11.183+480><thread=5592 (0x15D8)>
+~Waiting for changes in inbox definition and inbox rules, max wait = 60 seconds  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:11.183+480><thread=5592 (0x15D8)>
+~Creating inbox Asset Intelligence KB Retry...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.308+480><thread=5592 (0x15D8)>
+~Created inbox 38, Asset Intelligence KB Retry   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.308+480><thread=5592 (0x15D8)>
+~Successfully added inbox Asset Intelligence KB Retry  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.308+480><thread=5592 (0x15D8)>
+~Creating inbox Alert Notification Inbox...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.308+480><thread=5592 (0x15D8)>
+~Created inbox 39, Alert Notification Inbox   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.324+480><thread=5592 (0x15D8)>
+~Successfully added inbox Alert Notification Inbox  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.324+480><thread=5592 (0x15D8)>
+~Creating inbox Client Configuration Record (Incoming)...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.324+480><thread=5592 (0x15D8)>
+~Created inbox 40, Client Configuration Record (Incoming)   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.324+480><thread=5592 (0x15D8)>
+~Successfully added inbox Client Configuration Record (Incoming)  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.324+480><thread=5592 (0x15D8)>
+~Creating inbox Client Configuration Record (Retry)...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.324+480><thread=5592 (0x15D8)>
+~Created inbox 41, Client Configuration Record (Retry)   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.340+480><thread=5592 (0x15D8)>
+~Successfully added inbox Client Configuration Record (Retry)  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.340+480><thread=5592 (0x15D8)>
+~Creating inbox Collection Evaluator...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.340+480><thread=5592 (0x15D8)>
+~Created inbox 42, Collection Evaluator   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.340+480><thread=5592 (0x15D8)>
+~Successfully added inbox Collection Evaluator  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.340+480><thread=5592 (0x15D8)>
+~Creating inbox Distribution Manager...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.340+480><thread=5592 (0x15D8)>
+~Created inbox 43, Distribution Manager   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.355+480><thread=5592 (0x15D8)>
+~Successfully added inbox Distribution Manager  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.355+480><thread=5592 (0x15D8)>
+~Creating inbox Package Master Info...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.355+480><thread=5592 (0x15D8)>
+~Created inbox 44, Package Master Info   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.355+480><thread=5592 (0x15D8)>
+~Successfully added inbox Package Master Info  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.355+480><thread=5592 (0x15D8)>
+~Creating inbox Component Status Summarizer...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.355+480><thread=5592 (0x15D8)>
+~Created inbox 45, Component Status Summarizer   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.371+480><thread=5592 (0x15D8)>
+~Successfully added inbox Component Status Summarizer  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.371+480><thread=5592 (0x15D8)>
+~Creating inbox Failover Manager...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.371+480><thread=5592 (0x15D8)>
+~Created inbox 46, Failover Manager   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.371+480><thread=5592 (0x15D8)>
+~Successfully added inbox Failover Manager  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.371+480><thread=5592 (0x15D8)>
+~Creating inbox Enrollment Active Directory Service Inbox...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.387+480><thread=5592 (0x15D8)>
+~Created inbox 47, Enrollment Active Directory Service Inbox   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.387+480><thread=5592 (0x15D8)>
+~Successfully added inbox Enrollment Active Directory Service Inbox  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.387+480><thread=5592 (0x15D8)>
+~Creating inbox Hierarchy Manager (Site Public Keys)...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.387+480><thread=5592 (0x15D8)>
+~Created inbox 48, Hierarchy Manager (Site Public Keys)   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.387+480><thread=5592 (0x15D8)>
+~Successfully added inbox Hierarchy Manager (Site Public Keys)  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.402+480><thread=5592 (0x15D8)>
+~Creating inbox Inventory Processor...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.402+480><thread=5592 (0x15D8)>
+~Created inbox 49, Inventory Processor   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.402+480><thread=5592 (0x15D8)>
+~Successfully added inbox Inventory Processor  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.402+480><thread=5592 (0x15D8)>
+~Creating inbox License Manager Inbox...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.402+480><thread=5592 (0x15D8)>
+~Created inbox 50, License Manager Inbox   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.418+480><thread=5592 (0x15D8)>
+~Successfully added inbox License Manager Inbox  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.418+480><thread=5592 (0x15D8)>
+~Creating inbox Migration Manager Inbox...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.418+480><thread=5592 (0x15D8)>
+~Created inbox 51, Migration Manager Inbox   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.418+480><thread=5592 (0x15D8)>
+~Successfully added inbox Migration Manager Inbox  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.418+480><thread=5592 (0x15D8)>
+~Creating inbox Message Processing Engine...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.433+480><thread=5592 (0x15D8)>
+~Created inbox 52, Message Processing Engine   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.433+480><thread=5592 (0x15D8)>
+~Successfully added inbox Message Processing Engine  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.433+480><thread=5592 (0x15D8)>
+~Creating inbox Object Replication Manager...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.433+480><thread=5592 (0x15D8)>
+~Created inbox 53, Object Replication Manager   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.449+480><thread=5592 (0x15D8)>
+~Successfully added inbox Object Replication Manager  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.449+480><thread=5592 (0x15D8)>
+~Creating inbox Offer Manager...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.449+480><thread=5592 (0x15D8)>
+~Created inbox 54, Offer Manager   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.449+480><thread=5592 (0x15D8)>
+~Successfully added inbox Offer Manager  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.449+480><thread=5592 (0x15D8)>
+~Creating inbox Offer Manager (Incoming)...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.465+480><thread=5592 (0x15D8)>
+~Created inbox 55, Offer Manager (Incoming)   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.465+480><thread=5592 (0x15D8)>
+~Successfully added inbox Offer Manager (Incoming)  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.465+480><thread=5592 (0x15D8)>
+~Creating inbox Offer Status Summarizer...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.465+480><thread=5592 (0x15D8)>
+~Created inbox 56, Offer Status Summarizer   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.465+480><thread=5592 (0x15D8)>
+~Successfully added inbox Offer Status Summarizer  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.465+480><thread=5592 (0x15D8)>
+~Creating inbox SMS_PACKAGE_TRANSFER_MANAGER...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.480+480><thread=5592 (0x15D8)>
+~Created inbox 57, SMS_PACKAGE_TRANSFER_MANAGER   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.480+480><thread=5592 (0x15D8)>
+~Successfully added inbox SMS_PACKAGE_TRANSFER_MANAGER  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.480+480><thread=5592 (0x15D8)>
+~Creating inbox Policy Targeting Evaluator...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.480+480><thread=5592 (0x15D8)>
+~Created inbox 58, Policy Targeting Evaluator   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.496+480><thread=5592 (0x15D8)>
+~Successfully added inbox Policy Targeting Evaluator  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.496+480><thread=5592 (0x15D8)>
+~Creating inbox Policy Provider...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.496+480><thread=5592 (0x15D8)>
+~Created inbox 59, Policy Provider   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.496+480><thread=5592 (0x15D8)>
+~Successfully added inbox Policy Provider  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.496+480><thread=5592 (0x15D8)>
+~Creating inbox Rule Engine...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.512+480><thread=5592 (0x15D8)>
+~Created inbox 60, Rule Engine   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.512+480><thread=5592 (0x15D8)>
+~Successfully added inbox Rule Engine  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.512+480><thread=5592 (0x15D8)>
+~Creating inbox Hierarchy Manager (Site Reassign)...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.512+480><thread=5592 (0x15D8)>
+~Created inbox 61, Hierarchy Manager (Site Reassign)   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.527+480><thread=5592 (0x15D8)>
+~Successfully added inbox Hierarchy Manager (Site Reassign)  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.527+480><thread=5592 (0x15D8)>
+~Creating inbox Hierarchy Manager (CFD)...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.527+480><thread=5592 (0x15D8)>
+~Created inbox 62, Hierarchy Manager (CFD)   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.527+480><thread=5592 (0x15D8)>
+~Successfully added inbox Hierarchy Manager (CFD)  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.527+480><thread=5592 (0x15D8)>
+~Creating inbox Hierarchy Manager (ISM)...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.543+480><thread=5592 (0x15D8)>
+~Created inbox 63, Hierarchy Manager (ISM)   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.543+480><thread=5592 (0x15D8)>
+~Successfully added inbox Hierarchy Manager (ISM)  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.543+480><thread=5592 (0x15D8)>
+~Creating inbox WSUS Configuration Manager...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.543+480><thread=5592 (0x15D8)>
+~Created inbox 64, WSUS Configuration Manager   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.558+480><thread=5592 (0x15D8)>
+~Successfully added inbox WSUS Configuration Manager  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.558+480><thread=5592 (0x15D8)>
+~Waiting for changes in inbox definition and inbox rules, max wait = 180 seconds  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:16.558+480><thread=5592 (0x15D8)>
+~Waiting for changes in inbox definition and inbox rules, max wait = 180 seconds  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:21.808+480><thread=5592 (0x15D8)>
+~Creating inbox Collection Evaluator OutBox...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:37.043+480><thread=5592 (0x15D8)>
+~Created inbox 65, Collection Evaluator OutBox   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:37.059+480><thread=5592 (0x15D8)>
+~Successfully added inbox Collection Evaluator OutBox  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:37.059+480><thread=5592 (0x15D8)>
+~Creating inbox Failover Manager (Health)...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:37.059+480><thread=5592 (0x15D8)>
+~Created inbox 66, Failover Manager (Health)   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:37.074+480><thread=5592 (0x15D8)>
+~Successfully added inbox Failover Manager (Health)  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:37.074+480><thread=5592 (0x15D8)>
+~Waiting for changes in inbox definition and inbox rules, max wait = 180 seconds  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:37.074+480><thread=5592 (0x15D8)>
+~Updated inbox 42, Collection Evaluator   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:42.266+480><thread=5592 (0x15D8)>
+~Successfully updated inbox Collection Evaluator  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:42.272+480><thread=5592 (0x15D8)>
+~Creating inbox Collection Evaluator Retry...  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:42.380+480><thread=5592 (0x15D8)>
+~Created inbox 67, Collection Evaluator Retry   $$<SMS_INBOX_MANAGER><02-26-2023 19:53:42.387+480><thread=5592 (0x15D8)>
+~Successfully added inbox Collection Evaluator Retry  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:42.388+480><thread=5592 (0x15D8)>
+~Waiting for changes in inbox definition and inbox rules, max wait = 180 seconds  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:42.393+480><thread=5592 (0x15D8)>
+~Waiting for changes in inbox definition and inbox rules, max wait = 180 seconds  $$<SMS_INBOX_MANAGER><02-26-2023 19:53:47.669+480><thread=5592 (0x15D8)>
+~Creating inbox Discovery Data Manager (Notification)...  $$<SMS_INBOX_MANAGER><02-26-2023 19:54:01.474+480><thread=5592 (0x15D8)>
+~Created inbox 68, Discovery Data Manager (Notification)   $$<SMS_INBOX_MANAGER><02-26-2023 19:54:01.484+480><thread=5592 (0x15D8)>
+~Successfully added inbox Discovery Data Manager (Notification)  $$<SMS_INBOX_MANAGER><02-26-2023 19:54:01.485+480><thread=5592 (0x15D8)>
+~Waiting for changes in inbox definition and inbox rules, max wait = 180 seconds  $$<SMS_INBOX_MANAGER><02-26-2023 19:54:01.489+480><thread=5592 (0x15D8)>
+~Waiting for changes in inbox definition and inbox rules, max wait = 180 seconds  $$<SMS_INBOX_MANAGER><02-26-2023 19:54:06.735+480><thread=5592 (0x15D8)>
+~Creating inbox Collected Files...  $$<SMS_INBOX_MANAGER><02-26-2023 19:54:40.689+480><thread=5592 (0x15D8)>
+~Created inbox 69, Collected Files   $$<SMS_INBOX_MANAGER><02-26-2023 19:54:40.696+480><thread=5592 (0x15D8)>
+~Successfully added inbox Collected Files  $$<SMS_INBOX_MANAGER><02-26-2023 19:54:40.696+480><thread=5592 (0x15D8)>
+~Waiting for changes in inbox definition and inbox rules, max wait = 180 seconds  $$<SMS_INBOX_MANAGER><02-26-2023 19:54:40.700+480><thread=5592 (0x15D8)>
+~Waiting for changes in inbox definition and inbox rules, max wait = 180 seconds  $$<SMS_INBOX_MANAGER><02-26-2023 19:54:45.935+480><thread=5592 (0x15D8)>
+************ SERVICE THREAD IS STOPPING ************~  $$<SMS_INBOX_MANAGER><02-26-2023 19:55:09.615+480><thread=5592 (0x15D8)>
+SMS_EXECUTIVE started SMS_INBOX_MANAGER as thread ID 6536 (0x1988).  $$<SMS_INBOX_MANAGER><02-26-2023 19:55:26.845+480><thread=3768 (0xEB8)>
+************ SERVICE THREAD IS STARTING ************~  $$<SMS_INBOX_MANAGER><02-26-2023 19:55:26.845+480><thread=6536 (0x1988)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_INBOX_MANAGER><02-26-2023 19:55:26.845+480><thread=6536 (0x1988)>
+~Waiting for changes in inbox definition and inbox rules, max wait = 60 seconds  $$<SMS_INBOX_MANAGER><02-26-2023 19:55:26.861+480><thread=6536 (0x1988)>
+************ SERVICE THREAD IS STOPPING ************~  $$<SMS_INBOX_MANAGER><02-26-2023 19:55:48.126+480><thread=6536 (0x1988)>
+SMS_EXECUTIVE started SMS_INBOX_MANAGER as thread ID 6696 (0x1A28).  $$<SMS_INBOX_MANAGER><02-26-2023 19:56:04.377+480><thread=3488 (0xDA0)>
+************ SERVICE THREAD IS STARTING ************~  $$<SMS_INBOX_MANAGER><02-26-2023 19:56:04.377+480><thread=6696 (0x1A28)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_INBOX_MANAGER><02-26-2023 19:56:04.377+480><thread=6696 (0x1A28)>
+~Waiting for changes in inbox definition and inbox rules, max wait = 60 seconds  $$<SMS_INBOX_MANAGER><02-26-2023 19:56:04.377+480><thread=6696 (0x1A28)>
+************ SERVICE THREAD IS STOPPING ************~  $$<SMS_INBOX_MANAGER><02-26-2023 19:56:28.315+480><thread=6696 (0x1A28)>

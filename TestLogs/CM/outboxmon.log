@@ -1,0 +1,27 @@
+﻿SMS_EXECUTIVE started SMS_OUTBOX_MONITOR as thread ID 7124 (0x1BD4).  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:53:11.433+480><thread=3604 (0xE14)>
+************ SERVICE THREAD IS STARTING ************~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:53:11.433+480><thread=7124 (0x1BD4)>
+Polling interval is 900 seconds based on the polling schedule.~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:53:11.433+480><thread=7124 (0x1BD4)>
+Invalid file and directory search handle; error = 3 (0x3).~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:53:11.433+480><thread=7124 (0x1BD4)>
+Checking outboxes ...~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:53:11.433+480><thread=7124 (0x1BD4)>
+Invalid file and directory search handle; error = 3 (0x3).~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:53:11.433+480><thread=7124 (0x1BD4)>
+Waiting until the next polling cycle in 409 seconds from now.~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:53:11.433+480><thread=7124 (0x1BD4)>
+This component thread has been signalled to exit.~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:55:09.615+480><thread=7124 (0x1BD4)>
+************ SERVICE THREAD IS STOPPING ************~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:55:09.631+480><thread=7124 (0x1BD4)>
+SMS_EXECUTIVE started SMS_OUTBOX_MONITOR as thread ID 7264 (0x1C60).  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:55:27.345+480><thread=3768 (0xEB8)>
+************ SERVICE THREAD IS STARTING ************~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:55:27.345+480><thread=7264 (0x1C60)>
+Polling interval is 900 seconds based on the polling schedule.~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:55:27.361+480><thread=7264 (0x1C60)>
+Invalid file and directory search handle; error = 3 (0x3).~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:55:27.361+480><thread=7264 (0x1C60)>
+Checking outboxes ...~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:55:27.361+480><thread=7264 (0x1C60)>
+Invalid file and directory search handle; error = 3 (0x3).~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:55:27.361+480><thread=7264 (0x1C60)>
+Waiting until the next polling cycle in 273 seconds from now.~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:55:27.361+480><thread=7264 (0x1C60)>
+This component thread has been signalled to exit.~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:55:48.126+480><thread=7264 (0x1C60)>
+************ SERVICE THREAD IS STOPPING ************~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:55:48.126+480><thread=7264 (0x1C60)>
+SMS_EXECUTIVE started SMS_OUTBOX_MONITOR as thread ID 7232 (0x1C40).  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:56:04.862+480><thread=3488 (0xDA0)>
+************ SERVICE THREAD IS STARTING ************~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:56:04.877+480><thread=7232 (0x1C40)>
+Polling interval is 900 seconds based on the polling schedule.~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:56:04.877+480><thread=7232 (0x1C40)>
+Invalid file and directory search handle; error = 3 (0x3).~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:56:04.877+480><thread=7232 (0x1C40)>
+Checking outboxes ...~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:56:04.877+480><thread=7232 (0x1C40)>
+Invalid file and directory search handle; error = 3 (0x3).~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:56:04.877+480><thread=7232 (0x1C40)>
+Waiting until the next polling cycle in 236 seconds from now.~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:56:04.877+480><thread=7232 (0x1C40)>
+This component thread has been signalled to exit.~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:56:28.315+480><thread=7232 (0x1C40)>
+************ SERVICE THREAD IS STOPPING ************~  $$<SMS_OUTBOX_MONITOR><02-26-2023 19:56:28.331+480><thread=7232 (0x1C40)>

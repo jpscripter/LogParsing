@@ -1,0 +1,33 @@
+﻿SMS_EXECUTIVE started SMS_LICENSE_MANAGER as thread ID 6824 (0x1AA8).  $$<SMS_LICENSE_MANAGER><02-26-2023 19:53:11.246+480><thread=3604 (0xE14)>
+SMS_LICENSE_MANAGER is starting...  $$<SMS_LICENSE_MANAGER><02-26-2023 19:53:11.246+480><thread=6824 (0x1AA8)>
+LicenseMgr registry info - SQLServerName = CM1.corp.contoso.com; DatabaseName = ConfigMgr_CHQ; SiteNumber = 1; SiteCode = CHQ  $$<SMS_LICENSE_MANAGER><02-26-2023 19:53:11.246+480><thread=6824 (0x1AA8)>
+LicenseMgr connected to SQL and initialized m_pSql  $$<SMS_LICENSE_MANAGER><02-26-2023 19:53:11.262+480><thread=6824 (0x1AA8)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_LICENSE_MANAGER><02-26-2023 19:53:11.262+480><thread=6824 (0x1AA8)>
+~Created inbox def 50, License Manager Inbox  $$<SMS_LICENSE_MANAGER><02-26-2023 19:53:11.262+480><thread=6824 (0x1AA8)>
+Waiting for the inbox manager to create the inboxes and triggers, retry in 10 seconds.  $$<SMS_LICENSE_MANAGER><02-26-2023 19:53:11.262+480><thread=6824 (0x1AA8)>
+CLicenseMgr::InstallTrigger - Creating trigger def on LicenseKeys for Insert, Update.  $$<SMS_LICENSE_MANAGER><02-26-2023 19:53:21.277+480><thread=6824 (0x1AA8)>
+CLicenseMgr::InstallTrigger - Creating trigger def on MDMCertificates for Insert, Update.  $$<SMS_LICENSE_MANAGER><02-26-2023 19:53:21.277+480><thread=6824 (0x1AA8)>
+CLicenseMgr::InstallTrigger - Creating trigger def on CloudServiceVersion for Insert, Update.  $$<SMS_LICENSE_MANAGER><02-26-2023 19:53:21.277+480><thread=6824 (0x1AA8)>
+CLicenseMgr::InstallTrigger - Creating trigger def on IntuneAccountInfo for Insert, Update.  $$<SMS_LICENSE_MANAGER><02-26-2023 19:53:21.277+480><thread=6824 (0x1AA8)>
+CLicenseMgr::IsCurrentSiteReservedSite() called  $$<SMS_LICENSE_MANAGER><02-26-2023 19:53:21.277+480><thread=6824 (0x1AA8)>
+Retrieve initial service configuration suceeded  $$<SMS_LICENSE_MANAGER><02-26-2023 19:53:21.277+480><thread=6824 (0x1AA8)>
+LicenseMgr  is waiting for file change notification or timeout after 15 minutes.  $$<SMS_LICENSE_MANAGER><02-26-2023 19:53:21.277+480><thread=6824 (0x1AA8)>
+Exiting SMS_EN_LICENSEMGR_MONITOR thread ...  $$<SMS_LICENSE_MANAGER><02-26-2023 19:55:09.615+480><thread=6824 (0x1AA8)>
+SMS_EXECUTIVE started SMS_LICENSE_MANAGER as thread ID 7132 (0x1BDC).  $$<SMS_LICENSE_MANAGER><02-26-2023 19:55:27.048+480><thread=3768 (0xEB8)>
+SMS_LICENSE_MANAGER is starting...  $$<SMS_LICENSE_MANAGER><02-26-2023 19:55:27.048+480><thread=7132 (0x1BDC)>
+LicenseMgr registry info - SQLServerName = CM1.corp.contoso.com; DatabaseName = ConfigMgr_CHQ; SiteNumber = 1; SiteCode = CHQ  $$<SMS_LICENSE_MANAGER><02-26-2023 19:55:27.048+480><thread=7132 (0x1BDC)>
+LicenseMgr connected to SQL and initialized m_pSql  $$<SMS_LICENSE_MANAGER><02-26-2023 19:55:27.079+480><thread=7132 (0x1BDC)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_LICENSE_MANAGER><02-26-2023 19:55:27.079+480><thread=7132 (0x1BDC)>
+CLicenseMgr::IsCurrentSiteReservedSite() called  $$<SMS_LICENSE_MANAGER><02-26-2023 19:55:27.079+480><thread=7132 (0x1BDC)>
+Retrieve initial service configuration suceeded  $$<SMS_LICENSE_MANAGER><02-26-2023 19:55:27.095+480><thread=7132 (0x1BDC)>
+LicenseMgr  is waiting for file change notification or timeout after 15 minutes.  $$<SMS_LICENSE_MANAGER><02-26-2023 19:55:27.095+480><thread=7132 (0x1BDC)>
+Exiting SMS_EN_LICENSEMGR_MONITOR thread ...  $$<SMS_LICENSE_MANAGER><02-26-2023 19:55:48.126+480><thread=7132 (0x1BDC)>
+SMS_EXECUTIVE started SMS_LICENSE_MANAGER as thread ID 7160 (0x1BF8).  $$<SMS_LICENSE_MANAGER><02-26-2023 19:56:04.596+480><thread=3488 (0xDA0)>
+SMS_LICENSE_MANAGER is starting...  $$<SMS_LICENSE_MANAGER><02-26-2023 19:56:04.596+480><thread=7160 (0x1BF8)>
+LicenseMgr registry info - SQLServerName = CM1.corp.contoso.com; DatabaseName = ConfigMgr_CHQ; SiteNumber = 1; SiteCode = CHQ  $$<SMS_LICENSE_MANAGER><02-26-2023 19:56:04.596+480><thread=7160 (0x1BF8)>
+LicenseMgr connected to SQL and initialized m_pSql  $$<SMS_LICENSE_MANAGER><02-26-2023 19:56:04.612+480><thread=7160 (0x1BF8)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_LICENSE_MANAGER><02-26-2023 19:56:04.612+480><thread=7160 (0x1BF8)>
+CLicenseMgr::IsCurrentSiteReservedSite() called  $$<SMS_LICENSE_MANAGER><02-26-2023 19:56:04.612+480><thread=7160 (0x1BF8)>
+Retrieve initial service configuration suceeded  $$<SMS_LICENSE_MANAGER><02-26-2023 19:56:04.627+480><thread=7160 (0x1BF8)>
+LicenseMgr  is waiting for file change notification or timeout after 15 minutes.  $$<SMS_LICENSE_MANAGER><02-26-2023 19:56:04.627+480><thread=7160 (0x1BF8)>
+Exiting SMS_EN_LICENSEMGR_MONITOR thread ...  $$<SMS_LICENSE_MANAGER><02-26-2023 19:56:28.315+480><thread=7160 (0x1BF8)>

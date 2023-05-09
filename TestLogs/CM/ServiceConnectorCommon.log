@@ -1,0 +1,21 @@
+﻿<![LOG[Successfully subscribed listener to registry key.]LOG]!><time="19:53:11.7932580" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="8" file="">
+<![LOG[CommonWorkerConfig initializing ...]LOG]!><time="19:53:11.7932580" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="8" file="">
+<![LOG[Insights enabled: True]LOG]!><time="19:53:22.5901341" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="8" file="">
+<![LOG[Starting worker CommonWorker...]LOG]!><time="19:53:22.6213812" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="8" file="">
+<![LOG[[CommonWorker] Scheduling timer to start at 2/26/2023 7:58:22 PM with frequency 00:05:00]LOG]!><time="19:53:22.6213812" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="8" file="">
+<![LOG[Stopping worker CommonWorker...]LOG]!><time="19:55:09.6468273" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="30" file="">
+<![LOG[CommonWorker is shutting down. Performing final cleanup tasks ...]LOG]!><time="19:55:09.6624538" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="30" file="">
+<![LOG[Successfully subscribed listener to registry key.]LOG]!><time="19:55:28.6423006" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="14" file="">
+<![LOG[CommonWorkerConfig initializing ...]LOG]!><time="19:55:28.6423006" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="14" file="">
+<![LOG[Insights enabled: True]LOG]!><time="19:55:45.2829428" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="14" file="">
+<![LOG[Starting worker CommonWorker...]LOG]!><time="19:55:45.3141766" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="14" file="">
+<![LOG[[CommonWorker] Scheduling timer to start at 2/26/2023 8:00:45 PM with frequency 00:05:00]LOG]!><time="19:55:45.3141766" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="14" file="">
+<![LOG[Stopping worker CommonWorker...]LOG]!><time="19:55:48.1424661" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="9" file="">
+<![LOG[CommonWorker is shutting down. Performing final cleanup tasks ...]LOG]!><time="19:55:48.1424661" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="9" file="">
+<![LOG[Successfully subscribed listener to registry key.]LOG]!><time="19:56:06.0184260" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="13" file="">
+<![LOG[CommonWorkerConfig initializing ...]LOG]!><time="19:56:06.0184260" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="13" file="">
+<![LOG[Insights enabled: True]LOG]!><time="19:56:22.9246902" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="13" file="">
+<![LOG[Starting worker CommonWorker...]LOG]!><time="19:56:22.9559418" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="13" file="">
+<![LOG[[CommonWorker] Scheduling timer to start at 2/26/2023 8:01:22 PM with frequency 00:05:00]LOG]!><time="19:56:22.9559418" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="13" file="">
+<![LOG[Stopping worker CommonWorker...]LOG]!><time="19:56:28.3468203" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="6" file="">
+<![LOG[CommonWorker is shutting down. Performing final cleanup tasks ...]LOG]!><time="19:56:28.3468203" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_CommonWorker" context="" type="1" thread="6" file="">

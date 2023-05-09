@@ -1,0 +1,34 @@
+﻿SMS_EXECUTIVE started SMS_ENDPOINT_PROTECTION_MANAGER as thread ID 5732 (0x1664).  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:53:11.027+480><thread=3604 (0xE14)>
+============================================================================  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:53:11.027+480><thread=5732 (0x1664)>
+ThreadMain (SMS_ENDPOINT_PROTECTION_MANAGER) ...  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:53:11.027+480><thread=5732 (0x1664)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:53:11.027+480><thread=5732 (0x1664)>
+Registering SQL Types. (CM1.corp.contoso.com)(ConfigMgr_CHQ)  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:53:11.027+480><thread=5732 (0x1664)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:53:11.027+480><thread=5732 (0x1664)>
+Failed to create directory C:\Program Files\Microsoft Configuration Manager\inboxes\epmgr.box\corrupt, err=0x80070003  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:53:11.027+480><thread=5732 (0x1664)>
+ERROR: Unable to retrieve initial service configuration, sleeping for 5 minutes.  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:53:11.027+480><thread=5732 (0x1664)>
+SMS_EXECUTIVE started SMS_ENDPOINT_PROTECTION_MANAGER as thread ID 3112 (0xC28).  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:55:26.642+480><thread=3768 (0xEB8)>
+============================================================================  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:55:26.642+480><thread=3112 (0xC28)>
+ThreadMain (SMS_ENDPOINT_PROTECTION_MANAGER) ...  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:55:26.642+480><thread=3112 (0xC28)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:55:26.642+480><thread=3112 (0xC28)>
+Registering SQL Types. (CM1.corp.contoso.com)(ConfigMgr_CHQ)  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:55:26.657+480><thread=3112 (0xC28)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:55:26.657+480><thread=3112 (0xC28)>
+Inter-poll delay time set to 60 seconds for detection alerts.  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:55:26.751+480><thread=3112 (0xC28)>
+Inter-poll delay time set to 300 seconds for multiple infection alerts.  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:55:26.751+480><thread=3112 (0xC28)>
+Inter-poll delay time set to 300 seconds for outbreak alerts.  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:55:26.751+480><thread=3112 (0xC28)>
+Inter-poll delay time set to 300 seconds for reinfection alerts.  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:55:26.751+480><thread=3112 (0xC28)>
+Inter-poll delay time set to 86400 seconds for antimalware client version alerts.  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:55:26.751+480><thread=3112 (0xC28)>
+Alerts will be checked in 60 seconds...  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:55:26.751+480><thread=3112 (0xC28)>
+The component is signaled to be stopped  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:55:48.126+480><thread=3112 (0xC28)>
+SMS_EXECUTIVE started SMS_ENDPOINT_PROTECTION_MANAGER as thread ID 5328 (0x14D0).  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:56:04.174+480><thread=3488 (0xDA0)>
+============================================================================  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:56:04.174+480><thread=5328 (0x14D0)>
+ThreadMain (SMS_ENDPOINT_PROTECTION_MANAGER) ...  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:56:04.174+480><thread=5328 (0x14D0)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:56:04.174+480><thread=5328 (0x14D0)>
+Registering SQL Types. (CM1.corp.contoso.com)(ConfigMgr_CHQ)  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:56:04.190+480><thread=5328 (0x14D0)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:56:04.190+480><thread=5328 (0x14D0)>
+Inter-poll delay time set to 60 seconds for detection alerts.  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:56:04.221+480><thread=5328 (0x14D0)>
+Inter-poll delay time set to 300 seconds for multiple infection alerts.  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:56:04.221+480><thread=5328 (0x14D0)>
+Inter-poll delay time set to 300 seconds for outbreak alerts.  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:56:04.221+480><thread=5328 (0x14D0)>
+Inter-poll delay time set to 300 seconds for reinfection alerts.  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:56:04.221+480><thread=5328 (0x14D0)>
+Inter-poll delay time set to 86400 seconds for antimalware client version alerts.  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:56:04.221+480><thread=5328 (0x14D0)>
+Alerts will be checked in 60 seconds...  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:56:04.221+480><thread=5328 (0x14D0)>
+The component is signaled to be stopped  $$<SMS_ENDPOINT_PROTECTION_MANAGER><02-26-2023 19:56:28.315+480><thread=5328 (0x14D0)>

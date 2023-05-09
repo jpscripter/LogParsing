@@ -1,0 +1,40 @@
+﻿<02-26-2023 19:50:26> ====================================================================
+﻿<02-26-2023 19:50:26> Performance counter setup started....
+﻿<02-26-2023 19:50:26> Command line parameters: C:\Program Files\Microsoft Configuration Manager\bin\x64\perfsetup.exe /install /siteserver:CM1 SMS_EXECUTIVE.
+﻿<02-26-2023 19:50:26> Passed OS version check.
+﻿<02-26-2023 19:50:26> Performance counter setup completed; exit code = 0.
+﻿<02-26-2023 19:53:49> ====================================================================
+﻿<02-26-2023 19:53:49> Performance counter setup started....
+﻿<02-26-2023 19:53:49> Command line parameters: C:\Program Files\Microsoft Configuration Manager\bin\x64\perfsetup.exe /install /siteserver:CM1 SMS_DISCOVERY_DATA_MANAGER.
+﻿<02-26-2023 19:53:49> Passed OS version check.
+﻿<02-26-2023 19:53:49> Performance counter setup completed; exit code = 0.
+﻿<02-26-2023 19:54:25> ====================================================================
+﻿<02-26-2023 19:54:25> Performance counter setup started....
+﻿<02-26-2023 19:54:25> Command line parameters: C:\Program Files\Microsoft Configuration Manager\bin\x64\perfsetup.exe /install /siteserver:CM1 SMS_INBOX_MONITOR.
+﻿<02-26-2023 19:54:25> Passed OS version check.
+﻿<02-26-2023 19:54:25> Performance counter setup completed; exit code = 0.
+﻿<02-26-2023 19:54:32> ====================================================================
+﻿<02-26-2023 19:54:32> Performance counter setup started....
+﻿<02-26-2023 19:54:32> Command line parameters: C:\Program Files\Microsoft Configuration Manager\bin\x64\perfsetup.exe /install /siteserver:CM1 SMS_INVENTORY_DATA_LOADER.
+﻿<02-26-2023 19:54:32> Passed OS version check.
+﻿<02-26-2023 19:54:32> Performance counter setup completed; exit code = 0.
+﻿<02-26-2023 19:54:39> ====================================================================
+﻿<02-26-2023 19:54:39> Performance counter setup started....
+﻿<02-26-2023 19:54:39> Command line parameters: C:\Program Files\Microsoft Configuration Manager\bin\x64\perfsetup.exe /install /siteserver:CM1 SMS_LAN_SENDER.
+﻿<02-26-2023 19:54:39> Passed OS version check.
+﻿<02-26-2023 19:54:39> Performance counter setup completed; exit code = 0.
+﻿<02-26-2023 19:56:14> ====================================================================
+﻿<02-26-2023 19:56:14> Performance counter setup started....
+﻿<02-26-2023 19:56:14> Command line parameters: C:\Program Files\Microsoft Configuration Manager\bin\x64\perfsetup.exe /install /siteserver:CM1 SMS_AD_SECURITY_GROUP_DISCOVERY_AGENT.
+﻿<02-26-2023 19:56:14> Passed OS version check.
+﻿<02-26-2023 19:56:14> Performance counter setup completed; exit code = 0.
+﻿<02-26-2023 19:56:21> ====================================================================
+﻿<02-26-2023 19:56:21> Performance counter setup started....
+﻿<02-26-2023 19:56:21> Command line parameters: C:\Program Files\Microsoft Configuration Manager\bin\x64\perfsetup.exe /install /siteserver:CM1 SMS_AD_SYSTEM_DISCOVERY_AGENT.
+﻿<02-26-2023 19:56:21> Passed OS version check.
+﻿<02-26-2023 19:56:21> Performance counter setup completed; exit code = 0.
+﻿<02-26-2023 19:56:28> ====================================================================
+﻿<02-26-2023 19:56:28> Performance counter setup started....
+﻿<02-26-2023 19:56:28> Command line parameters: C:\Program Files\Microsoft Configuration Manager\bin\x64\perfsetup.exe /install /siteserver:CM1 SMS_AD_USER_DISCOVERY_AGENT.
+﻿<02-26-2023 19:56:28> Passed OS version check.
+﻿<02-26-2023 19:56:28> Performance counter setup completed; exit code = 0.

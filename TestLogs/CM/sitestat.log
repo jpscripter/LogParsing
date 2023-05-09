@@ -1,0 +1,500 @@
+﻿SMS_EXECUTIVE started SMS_SITE_SYSTEM_STATUS_SUMMARIZER as thread ID 7292 (0x1C7C).  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.683+480><thread=3604 (0xE14)>
+********************************************************************************  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.699+480><thread=7292 (0x1C7C)>
+SMS_SITE_SYSTEM_STATUS_SUMMARIZER started...  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.699+480><thread=7292 (0x1C7C)>
+Microsoft Endpoint Configuration Manager v5.00 (Build 9078)  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.699+480><thread=7292 (0x1C7C)>
+Copyright (C) 2011 Microsoft Corp.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.699+480><thread=7292 (0x1C7C)>
+---->: Process ID: 2944  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.699+480><thread=7292 (0x1C7C)>
+---->: Worker thread ID: 7292  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.699+480><thread=7292 (0x1C7C)>
+Info>: Processing a site control file change. Updating summarizer properties if needed.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.699+480><thread=7292 (0x1C7C)>
+---->: Reading initial configuration from the registry  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.699+480><thread=7292 (0x1C7C)>
+---->: Getting configuration from site control file  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.699+480><thread=7292 (0x1C7C)>
+---->: The SCF already changed within the last 60 seconds. Waiting 0 seconds first.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.730+480><thread=7292 (0x1C7C)>
+Info>: Site System Resouces have not changed in the SCF since it was last updated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.730+480><thread=7292 (0x1C7C)>
+---->: The new summarizer properties are:  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.730+480><thread=7292 (0x1C7C)>
+---->: Run continuously?  0)No, 1)Yes: 1  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.730+480><thread=7292 (0x1C7C)>
+---->: Replication Priority:           2  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.730+480><thread=7292 (0x1C7C)>
+---->: Status Message Queue Inbox:     Site System Status Summarizer  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.730+480><thread=7292 (0x1C7C)>
+---->: Status Message Queue Length:    0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.730+480><thread=7292 (0x1C7C)>
+---->: Status Message Queue Age:       0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.730+480><thread=7292 (0x1C7C)>
+---->: Wakeup Timer Schedule           0001128000500100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.730+480><thread=7292 (0x1C7C)>
+Inbox source is local on CM1.corp.contoso.com  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.730+480><thread=7292 (0x1C7C)>
+---->: Opened a change notification handle for the "Site Control Manager (Master Site Control File)" inbox.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.730+480><thread=7292 (0x1C7C)>
+---->: Initializing the Inbox: inboxes\SiteStat.Box.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.730+480><thread=7292 (0x1C7C)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.730+480><thread=7292 (0x1C7C)>
+---->: The Site System Status Summarizer inbox hasn't been created by SMS_INBOX_MANAGER yet.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.730+480><thread=7292 (0x1C7C)>
+---->: Sleeping for 60 seconds...  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:53:11.746+480><thread=7292 (0x1C7C)>
+---->: Path to Site System Status Summarizer inbox: C:\Program Files\Microsoft Configuration Manager\inboxes\sitestat.box  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.750+480><thread=7292 (0x1C7C)>
+---->: Opened a Inbox change notification handle for the C:\Program Files\Microsoft Configuration Manager\inboxes\sitestat.box directory.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.753+480><thread=7292 (0x1C7C)>
+---->: SQL Server Version for SMS ACCESS is 14.0.100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.821+480><thread=7292 (0x1C7C)>
+---->: Major SQL Version for connection "SMS ACCESS" is 14  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.822+480><thread=7292 (0x1C7C)>
+---->: Updating the site system objects list.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.824+480><thread=7292 (0x1C7C)>
+---->: There are no pollable objects list in the SCF for system "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\", configured as SMS Distribution Point  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.825+480><thread=7292 (0x1C7C)>
+---->: There are no pollable objects list in the SCF for system "["Display=\\CM1.CORP.CONTOSO.COM\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\", configured as SMS Dmp Connector  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.826+480><thread=7292 (0x1C7C)>
+---->: There are no pollable objects list in the SCF for system "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\", configured as SMS Notification Server  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.826+480><thread=7292 (0x1C7C)>
+---->: There are no pollable objects list in the SCF for system "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\", configured as SMS Provider  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.827+480><thread=7292 (0x1C7C)>
+---->: There are no pollable objects list in the SCF for system "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\", configured as SMS Site System  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.828+480><thread=7292 (0x1C7C)>
+---->: Reading the site systems summary list history from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.828+480><thread=7292 (0x1C7C)>
+---->: Reading site object rows.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.832+480><thread=7292 (0x1C7C)>
+---->: Updating SiteObject thresholds from the "SiteObject Thresholds" property list  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.833+480><thread=7292 (0x1C7C)>
+Info>: Polling site systems ...  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.834+480><thread=7292 (0x1C7C)>
+---->: Now polling SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.835+480><thread=7292 (0x1C7C)>
+---->: Availability State on server CM1.CORP.CONTOSO.COM for role SMS Component Server is 4.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.837+480><thread=7292 (0x1C7C)>
+---->: Now polling SiteObject "["Display=\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.838+480><thread=7292 (0x1C7C)>
+---->: Availability State on server CM1.corp.contoso.com for role SMS Site Server is 4.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.840+480><thread=7292 (0x1C7C)>
+---->: Now polling via SQL for SiteObject "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.841+480><thread=7292 (0x1C7C)>
+---->: SQL Server Version for SMS ACCESS is 14.0.100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.846+480><thread=7292 (0x1C7C)>
+---->: Major SQL Version for connection "SMS ACCESS" is 14  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.847+480><thread=7292 (0x1C7C)>
+---->: Checking space for site database, site object ["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.848+480><thread=7292 (0x1C7C)>
+---->: Checking database file space.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.849+480><thread=7292 (0x1C7C)>
+---->: Database is auto-grow.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.917+480><thread=7292 (0x1C7C)>
+---->: Availability State on server CM1.corp.contoso.com for role SMS SQL Server is 0.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.921+480><thread=7292 (0x1C7C)>
+STATMSG: ID=4720 SEV=I LEV=M SOURCE="SMS Server" COMP="SMS_SITE_SYSTEM_STATUS_SUMMARIZER" SYS=CM1.corp.contoso.com SITE=CHQ PID=2944 TID=7292 GMTDATE=Mon Feb 27 03:54:11.924 2023 ISTR0="SMS SQL Server" ISTR1="\\CM1.corp.contoso.com" ISTR2="" ISTR3="" ISTR4="" ISTR5="" ISTR6="" ISTR7="" ISTR8="" ISTR9="" NUMATTRS=0 LE=0X0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.923+480><thread=7292 (0x1C7C)>
+---->: Now polling via SQL for SiteObject "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.925+480><thread=7292 (0x1C7C)>
+---->: SQL Server Version for SMS ACCESS is 14.0.100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.929+480><thread=7292 (0x1C7C)>
+---->: Major SQL Version for connection "SMS ACCESS" is 14  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.930+480><thread=7292 (0x1C7C)>
+---->: Checking space for site database, site object ["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.931+480><thread=7292 (0x1C7C)>
+---->: Checking transaction log file space.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.932+480><thread=7292 (0x1C7C)>
+---->: Database is auto-grow.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.944+480><thread=7292 (0x1C7C)>
+---->: Availability State on server CM1.corp.contoso.com for role SMS SQL Server is 0.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.945+480><thread=7292 (0x1C7C)>
+STATMSG: ID=4720 SEV=I LEV=M SOURCE="SMS Server" COMP="SMS_SITE_SYSTEM_STATUS_SUMMARIZER" SYS=CM1.corp.contoso.com SITE=CHQ PID=2944 TID=7292 GMTDATE=Mon Feb 27 03:54:11.946 2023 ISTR0="SMS SQL Server" ISTR1="\\CM1.corp.contoso.com" ISTR2="" ISTR3="" ISTR4="" ISTR5="" ISTR6="" ISTR7="" ISTR8="" ISTR9="" NUMATTRS=0 LE=0X0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.945+480><thread=7292 (0x1C7C)>
+---->: Seeing if any site system records need to be replicated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.947+480><thread=7292 (0x1C7C)>
+---->: Since all sites (CAS, Primary and Secondary) are using SQL replication, we do not create replication file. Removing site system records that are marked for deletion from database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.947+480><thread=7292 (0x1C7C)>
+---->: Removing all records marked for deletion from the SiteSystem table  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.948+480><thread=7292 (0x1C7C)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.951+480><thread=7292 (0x1C7C)>
+---->: Done processing any records marked as needing replication.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.961+480><thread=7292 (0x1C7C)>
+---->: Removing any orphaned data from the summary list and the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.961+480><thread=7292 (0x1C7C)>
+---->: Updating the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.969+480><thread=7292 (0x1C7C)>
+---->: All sites (CAS, Primary or Secondary) are using SQL as the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.969+480><thread=7292 (0x1C7C)>
+---->: Updating the Site Systems list for this site to the database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.970+480><thread=7292 (0x1C7C)>
+---->: Updated SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.983+480><thread=7292 (0x1C7C)>
+---->: Updated SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.987+480><thread=7292 (0x1C7C)>
+---->: Updated SiteObject "["Display=\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.989+480><thread=7292 (0x1C7C)>
+---->: Updated SiteObject "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.991+480><thread=7292 (0x1C7C)>
+---->: Updated SiteObject "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.993+480><thread=7292 (0x1C7C)>
+---->: Done processing records for the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.994+480><thread=7292 (0x1C7C)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:11.994+480><thread=7292 (0x1C7C)>
+---->: Seeing if any site system records need to be replicated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:12.022+480><thread=7292 (0x1C7C)>
+---->: Since all sites (CAS, Primary and Secondary) are using SQL replication, we do not create replication file. Removing site system records that are marked for deletion from database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:12.023+480><thread=7292 (0x1C7C)>
+---->: Removing all records marked for deletion from the SiteSystem table  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:12.024+480><thread=7292 (0x1C7C)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:12.029+480><thread=7292 (0x1C7C)>
+---->: Done processing any records marked as needing replication.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:12.038+480><thread=7292 (0x1C7C)>
+---->: Starting the main event loop.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:12.039+480><thread=7292 (0x1C7C)>
+---->: Received an Inbox notification, waiting 10 seconds before processing.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:12.040+480><thread=7292 (0x1C7C)>
+Info>: Processing the incoming replication file: C:\Program Files\Microsoft Configuration Manager\inboxes\sitestat.box\i5fg9e1b.SUM  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.042+480><thread=7292 (0x1C7C)>
+---->: Processing replication file...  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.047+480><thread=7292 (0x1C7C)>
+Warn>: Can't find the site object with role SMS Dmp Connector, site system ["Display=\\CM1.CORP.CONTOSO.COM\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.048+480><thread=7292 (0x1C7C)>
+---->: The list is empty There is nothing to send to datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.048+480><thread=7292 (0x1C7C)>
+---->: Now processing anything that may be pending.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.048+480><thread=7292 (0x1C7C)>
+---->: Updating the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.049+480><thread=7292 (0x1C7C)>
+---->: All sites (CAS, Primary or Secondary) are using SQL as the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.049+480><thread=7292 (0x1C7C)>
+---->: Updating the Site Systems list for this site to the database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.050+480><thread=7292 (0x1C7C)>
+---->: Done processing records for the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.050+480><thread=7292 (0x1C7C)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.051+480><thread=7292 (0x1C7C)>
+---->: Seeing if any site system records need to be replicated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.052+480><thread=7292 (0x1C7C)>
+---->: Since all sites (CAS, Primary and Secondary) are using SQL replication, we do not create replication file. Removing site system records that are marked for deletion from database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.054+480><thread=7292 (0x1C7C)>
+---->: Removing all records marked for deletion from the SiteSystem table  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.055+480><thread=7292 (0x1C7C)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.055+480><thread=7292 (0x1C7C)>
+---->: Done processing any records marked as needing replication.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.057+480><thread=7292 (0x1C7C)>
+Info>: Processing the incoming replication file: C:\Program Files\Microsoft Configuration Manager\inboxes\sitestat.box\hkwe5u1q.SUM  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.057+480><thread=7292 (0x1C7C)>
+---->: Processing replication file...  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.062+480><thread=7292 (0x1C7C)>
+Warn>: Can't find the site object with role SMS Dmp Connector, site system ["Display=\\CM1.CORP.CONTOSO.COM\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.063+480><thread=7292 (0x1C7C)>
+---->: The list is empty There is nothing to send to datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.063+480><thread=7292 (0x1C7C)>
+---->: Now processing anything that may be pending.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.063+480><thread=7292 (0x1C7C)>
+---->: Updating the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.064+480><thread=7292 (0x1C7C)>
+---->: All sites (CAS, Primary or Secondary) are using SQL as the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.064+480><thread=7292 (0x1C7C)>
+---->: Updating the Site Systems list for this site to the database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.066+480><thread=7292 (0x1C7C)>
+---->: Updated SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.075+480><thread=7292 (0x1C7C)>
+---->: Done processing records for the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.076+480><thread=7292 (0x1C7C)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.077+480><thread=7292 (0x1C7C)>
+Info>: Processing the incoming replication file: C:\Program Files\Microsoft Configuration Manager\inboxes\sitestat.box\tt93enn0.SUM  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.084+480><thread=7292 (0x1C7C)>
+---->: Processing replication file...  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.089+480><thread=7292 (0x1C7C)>
+Warn>: Can't find the site object with role SMS Dmp Connector, site system ["Display=\\CM1.CORP.CONTOSO.COM\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.090+480><thread=7292 (0x1C7C)>
+---->: The list is empty There is nothing to send to datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.092+480><thread=7292 (0x1C7C)>
+---->: Now processing anything that may be pending.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.092+480><thread=7292 (0x1C7C)>
+---->: Updating the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.092+480><thread=7292 (0x1C7C)>
+---->: All sites (CAS, Primary or Secondary) are using SQL as the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.092+480><thread=7292 (0x1C7C)>
+---->: Updating the Site Systems list for this site to the database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.094+480><thread=7292 (0x1C7C)>
+---->: Done processing records for the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.094+480><thread=7292 (0x1C7C)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.095+480><thread=7292 (0x1C7C)>
+---->: Reset the Inbox change notification handle for the C:\Program Files\Microsoft Configuration Manager\inboxes\sitestat.box directory.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.097+480><thread=7292 (0x1C7C)>
+---->: Now processing anything that may be pending.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.098+480><thread=7292 (0x1C7C)>
+---->: Updating the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.098+480><thread=7292 (0x1C7C)>
+---->: All sites (CAS, Primary or Secondary) are using SQL as the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.098+480><thread=7292 (0x1C7C)>
+---->: Updating the Site Systems list for this site to the database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.098+480><thread=7292 (0x1C7C)>
+---->: Done processing records for the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.099+480><thread=7292 (0x1C7C)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.099+480><thread=7292 (0x1C7C)>
+Info>: Resetting the default heartbeat timer. It will expire by: Sun Feb 26 20:00:00 2023~  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.101+480><thread=7292 (0x1C7C)>
+---->: An event has occurred, the event code is: 0x0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.103+480><thread=7292 (0x1C7C)>
+Info>: Processing a site control file change. Updating summarizer properties if needed.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.103+480><thread=7292 (0x1C7C)>
+---->: Getting configuration from site control file  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.104+480><thread=7292 (0x1C7C)>
+---->: The SCF aging timer has exceeded 60 seconds and expired, Reading SCF  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.106+480><thread=7292 (0x1C7C)>
+Info>: Site System Resouces have not changed in the SCF since it was last updated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.106+480><thread=7292 (0x1C7C)>
+---->: Checking for new/changed parent site.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.107+480><thread=7292 (0x1C7C)>
+---->: Updating SiteObject thresholds from the "SiteObject Thresholds" property list  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.107+480><thread=7292 (0x1C7C)>
+---->: Updating the site system objects list.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.108+480><thread=7292 (0x1C7C)>
+Info>: Updating distribution point site objects for ["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.108+480><thread=7292 (0x1C7C)>
+---->: The distribution point ["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ is a server.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.109+480><thread=7292 (0x1C7C)>
+The machine account will be used for ["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\.~  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.110+480><thread=7292 (0x1C7C)>
+No network connection is needed to ["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ as this is the local machine.~  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.111+480><thread=7292 (0x1C7C)>
+---->: Enumerating drives on the server.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.111+480><thread=7292 (0x1C7C)>
+---->: Resource ["Display=\\CM1.corp.contoso.com\C$\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\ is an existing site object.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.113+480><thread=7292 (0x1C7C)>
+---->: Found an installation state reported, update the installation state site role SMS Dmp Connector on ["Display=\\CM1.CORP.CONTOSO.COM\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\ to 3  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.115+480><thread=7292 (0x1C7C)>
+---->: There are no pollable objects list in the SCF for system "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\", configured as SMS Notification Server  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.115+480><thread=7292 (0x1C7C)>
+---->: There are no pollable objects list in the SCF for system "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\", configured as SMS Provider  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.116+480><thread=7292 (0x1C7C)>
+---->: There are no pollable objects list in the SCF for system "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\", configured as SMS Site System  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.116+480><thread=7292 (0x1C7C)>
+Info>: Polling site systems ...  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.116+480><thread=7292 (0x1C7C)>
+---->: Now polling SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.117+480><thread=7292 (0x1C7C)>
+---->: Availability State on server CM1.CORP.CONTOSO.COM for role SMS Component Server is 4.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.118+480><thread=7292 (0x1C7C)>
+---->: Now polling SiteObject "["Display=\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.118+480><thread=7292 (0x1C7C)>
+---->: Availability State on server CM1.corp.contoso.com for role SMS Site Server is 4.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.119+480><thread=7292 (0x1C7C)>
+---->: Now polling via SQL for SiteObject "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.119+480><thread=7292 (0x1C7C)>
+---->: SQL Server Version for SMS ACCESS is 14.0.100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.121+480><thread=7292 (0x1C7C)>
+---->: Major SQL Version for connection "SMS ACCESS" is 14  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.122+480><thread=7292 (0x1C7C)>
+---->: Checking space for site database, site object ["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.122+480><thread=7292 (0x1C7C)>
+---->: Checking database file space.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.123+480><thread=7292 (0x1C7C)>
+---->: Database is auto-grow.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.147+480><thread=7292 (0x1C7C)>
+---->: Availability State on server CM1.corp.contoso.com for role SMS SQL Server is 0.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.148+480><thread=7292 (0x1C7C)>
+---->: Now polling via SQL for SiteObject "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.149+480><thread=7292 (0x1C7C)>
+---->: SQL Server Version for SMS ACCESS is 14.0.100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.150+480><thread=7292 (0x1C7C)>
+---->: Major SQL Version for connection "SMS ACCESS" is 14  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.152+480><thread=7292 (0x1C7C)>
+---->: Checking space for site database, site object ["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.152+480><thread=7292 (0x1C7C)>
+---->: Checking transaction log file space.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.153+480><thread=7292 (0x1C7C)>
+---->: Database is auto-grow.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.154+480><thread=7292 (0x1C7C)>
+---->: Availability State on server CM1.corp.contoso.com for role SMS SQL Server is 0.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.155+480><thread=7292 (0x1C7C)>
+---->: Now polling SiteObject "["Display=\\CM1.corp.contoso.com\C$\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.155+480><thread=7292 (0x1C7C)>
+---->: Now polling SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.155+480><thread=7292 (0x1C7C)>
+---->: Availability State on server CM1.CORP.CONTOSO.COM for role SMS Dmp Connector is 0.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.157+480><thread=7292 (0x1C7C)>
+STATMSG: ID=4720 SEV=I LEV=M SOURCE="SMS Server" COMP="SMS_SITE_SYSTEM_STATUS_SUMMARIZER" SYS=CM1.CORP.CONTOSO.COM SITE=CHQ PID=2944 TID=7292 GMTDATE=Mon Feb 27 03:54:22.158 2023 ISTR0="SMS Dmp Connector" ISTR1="\\CM1.CORP.CONTOSO.COM" ISTR2="" ISTR3="" ISTR4="" ISTR5="" ISTR6="" ISTR7="" ISTR8="" ISTR9="" NUMATTRS=0 LE=0X0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.158+480><thread=7292 (0x1C7C)>
+---->: Seeing if any site system records need to be replicated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.159+480><thread=7292 (0x1C7C)>
+---->: Since all sites (CAS, Primary and Secondary) are using SQL replication, we do not create replication file. Removing site system records that are marked for deletion from database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.159+480><thread=7292 (0x1C7C)>
+---->: Removing all records marked for deletion from the SiteSystem table  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.161+480><thread=7292 (0x1C7C)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.162+480><thread=7292 (0x1C7C)>
+---->: Done processing any records marked as needing replication.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.163+480><thread=7292 (0x1C7C)>
+---->: Updating the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.163+480><thread=7292 (0x1C7C)>
+---->: All sites (CAS, Primary or Secondary) are using SQL as the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.163+480><thread=7292 (0x1C7C)>
+---->: Updating the Site Systems list for this site to the database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.163+480><thread=7292 (0x1C7C)>
+---->: Updated SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.170+480><thread=7292 (0x1C7C)>
+---->: Updated SiteObject "["Display=\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.177+480><thread=7292 (0x1C7C)>
+---->: Updated SiteObject "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.184+480><thread=7292 (0x1C7C)>
+---->: Updated SiteObject "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.189+480><thread=7292 (0x1C7C)>
+---->: Updated SiteObject "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.192+480><thread=7292 (0x1C7C)>
+---->: Updated SiteObject "["Display=\\CM1.corp.contoso.com\C$\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.192+480><thread=7292 (0x1C7C)>
+---->: Updated SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.194+480><thread=7292 (0x1C7C)>
+---->: Done processing records for the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.194+480><thread=7292 (0x1C7C)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.195+480><thread=7292 (0x1C7C)>
+---->: Seeing if any site system records need to be replicated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.197+480><thread=7292 (0x1C7C)>
+---->: Since all sites (CAS, Primary and Secondary) are using SQL replication, we do not create replication file. Removing site system records that are marked for deletion from database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.198+480><thread=7292 (0x1C7C)>
+---->: Removing all records marked for deletion from the SiteSystem table  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.199+480><thread=7292 (0x1C7C)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.199+480><thread=7292 (0x1C7C)>
+---->: Done processing any records marked as needing replication.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.201+480><thread=7292 (0x1C7C)>
+---->: The new summarizer properties are:  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.201+480><thread=7292 (0x1C7C)>
+---->: Run continuously?  0)No, 1)Yes: 1  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.202+480><thread=7292 (0x1C7C)>
+---->: Replication Priority:           2  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.202+480><thread=7292 (0x1C7C)>
+---->: Status Message Queue Inbox:     Site System Status Summarizer  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.202+480><thread=7292 (0x1C7C)>
+---->: Status Message Queue Length:    0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.202+480><thread=7292 (0x1C7C)>
+---->: Status Message Queue Age:       0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.202+480><thread=7292 (0x1C7C)>
+---->: Wakeup Timer Schedule           0001128000500100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.204+480><thread=7292 (0x1C7C)>
+---->: Reset the change notification handle for the "Site Control Manager (Master Site Control File)" inbox.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.204+480><thread=7292 (0x1C7C)>
+Info>: Resetting the default heartbeat timer. It will expire by: Sun Feb 26 20:00:00 2023~  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.204+480><thread=7292 (0x1C7C)>
+---->: An event has occurred, the event code is: 0x0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.206+480><thread=7292 (0x1C7C)>
+Info>: Processing a site control file change. Updating summarizer properties if needed.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.206+480><thread=7292 (0x1C7C)>
+---->: Getting configuration from site control file  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.206+480><thread=7292 (0x1C7C)>
+---->: The SCF already changed within the last 60 seconds. Waiting 0 seconds first.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.208+480><thread=7292 (0x1C7C)>
+Info>: No Site System Resouces have changed in the SCF since it was last updated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.210+480><thread=7292 (0x1C7C)>
+---->: Checking for new/changed parent site.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.210+480><thread=7292 (0x1C7C)>
+---->: Updating SiteObject thresholds from the "SiteObject Thresholds" property list  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.210+480><thread=7292 (0x1C7C)>
+---->: Updating the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.212+480><thread=7292 (0x1C7C)>
+---->: All sites (CAS, Primary or Secondary) are using SQL as the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.212+480><thread=7292 (0x1C7C)>
+---->: Updating the Site Systems list for this site to the database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.212+480><thread=7292 (0x1C7C)>
+---->: Done processing records for the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.213+480><thread=7292 (0x1C7C)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.213+480><thread=7292 (0x1C7C)>
+---->: Seeing if any site system records need to be replicated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.216+480><thread=7292 (0x1C7C)>
+---->: Since all sites (CAS, Primary and Secondary) are using SQL replication, we do not create replication file. Removing site system records that are marked for deletion from database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.216+480><thread=7292 (0x1C7C)>
+---->: Removing all records marked for deletion from the SiteSystem table  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.217+480><thread=7292 (0x1C7C)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.217+480><thread=7292 (0x1C7C)>
+---->: Done processing any records marked as needing replication.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.219+480><thread=7292 (0x1C7C)>
+---->: The new summarizer properties are:  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.219+480><thread=7292 (0x1C7C)>
+---->: Run continuously?  0)No, 1)Yes: 1  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.219+480><thread=7292 (0x1C7C)>
+---->: Replication Priority:           2  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.219+480><thread=7292 (0x1C7C)>
+---->: Status Message Queue Inbox:     Site System Status Summarizer  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.220+480><thread=7292 (0x1C7C)>
+---->: Status Message Queue Length:    0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.220+480><thread=7292 (0x1C7C)>
+---->: Status Message Queue Age:       0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.222+480><thread=7292 (0x1C7C)>
+---->: Wakeup Timer Schedule           0001128000500100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.222+480><thread=7292 (0x1C7C)>
+---->: Reset the change notification handle for the "Site Control Manager (Master Site Control File)" inbox.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.222+480><thread=7292 (0x1C7C)>
+Info>: Resetting the default heartbeat timer. It will expire by: Sun Feb 26 20:00:00 2023~  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.223+480><thread=7292 (0x1C7C)>
+---->: An event has occurred, the event code is: 0x1  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.223+480><thread=7292 (0x1C7C)>
+---->: Received an Inbox notification, waiting 10 seconds before processing.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:22.224+480><thread=7292 (0x1C7C)>
+---->: Reset the Inbox change notification handle for the C:\Program Files\Microsoft Configuration Manager\inboxes\sitestat.box directory.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:32.226+480><thread=7292 (0x1C7C)>
+Info>: Resetting the default heartbeat timer. It will expire by: Sun Feb 26 20:00:00 2023~  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:32.227+480><thread=7292 (0x1C7C)>
+---->: An event has occurred, the event code is: 0x0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:41.127+480><thread=7292 (0x1C7C)>
+Info>: Processing a site control file change. Updating summarizer properties if needed.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:41.130+480><thread=7292 (0x1C7C)>
+---->: Getting configuration from site control file  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:41.131+480><thread=7292 (0x1C7C)>
+---->: The SCF already changed within the last 60 seconds. Waiting 19 seconds first.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:54:41.144+480><thread=7292 (0x1C7C)>
+Info>: No Site System Resouces have changed in the SCF since it was last updated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.145+480><thread=7292 (0x1C7C)>
+---->: Checking for new/changed parent site.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.146+480><thread=7292 (0x1C7C)>
+---->: Updating SiteObject thresholds from the "SiteObject Thresholds" property list  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.147+480><thread=7292 (0x1C7C)>
+---->: Updating the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.147+480><thread=7292 (0x1C7C)>
+---->: All sites (CAS, Primary or Secondary) are using SQL as the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.148+480><thread=7292 (0x1C7C)>
+---->: Updating the Site Systems list for this site to the database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.149+480><thread=7292 (0x1C7C)>
+---->: Done processing records for the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.149+480><thread=7292 (0x1C7C)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.150+480><thread=7292 (0x1C7C)>
+---->: Seeing if any site system records need to be replicated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.160+480><thread=7292 (0x1C7C)>
+---->: Since all sites (CAS, Primary and Secondary) are using SQL replication, we do not create replication file. Removing site system records that are marked for deletion from database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.161+480><thread=7292 (0x1C7C)>
+---->: Removing all records marked for deletion from the SiteSystem table  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.162+480><thread=7292 (0x1C7C)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.166+480><thread=7292 (0x1C7C)>
+---->: Done processing any records marked as needing replication.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.167+480><thread=7292 (0x1C7C)>
+---->: The new summarizer properties are:  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.167+480><thread=7292 (0x1C7C)>
+---->: Run continuously?  0)No, 1)Yes: 1  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.168+480><thread=7292 (0x1C7C)>
+---->: Replication Priority:           2  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.168+480><thread=7292 (0x1C7C)>
+---->: Status Message Queue Inbox:     Site System Status Summarizer  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.169+480><thread=7292 (0x1C7C)>
+---->: Status Message Queue Length:    0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.169+480><thread=7292 (0x1C7C)>
+---->: Status Message Queue Age:       0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.170+480><thread=7292 (0x1C7C)>
+---->: Wakeup Timer Schedule           0001128000500100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.170+480><thread=7292 (0x1C7C)>
+---->: Reset the change notification handle for the "Site Control Manager (Master Site Control File)" inbox.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.171+480><thread=7292 (0x1C7C)>
+Info>: Resetting the default heartbeat timer. It will expire by: Sun Feb 26 20:00:00 2023~  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:00.171+480><thread=7292 (0x1C7C)>
+---->: An event has occurred, the event code is: 0x0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:06.248+480><thread=7292 (0x1C7C)>
+Info>: Processing a site control file change. Updating summarizer properties if needed.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:06.249+480><thread=7292 (0x1C7C)>
+---->: Getting configuration from site control file  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:06.250+480><thread=7292 (0x1C7C)>
+---->: The SCF already changed within the last 60 seconds. Waiting 44 seconds first.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:06.599+480><thread=7292 (0x1C7C)>
+Warn>: Could not initialize the summarizers properties.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:09.615+480><thread=7292 (0x1C7C)>
+---->: Sleeping for 60 seconds...  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:09.631+480><thread=7292 (0x1C7C)>
+Info>: Resetting the default heartbeat timer. It will expire by: Sun Feb 26 20:00:00 2023~  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:09.631+480><thread=7292 (0x1C7C)>
+---->: SMS_SITE_SYSTEM_STATUS_SUMMARIZER stopping. The exit code is 0xfffffffe  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:09.646+480><thread=7292 (0x1C7C)>
+SMS_SITE_SYSTEM_STATUS_SUMMARIZER stopped.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:09.646+480><thread=7292 (0x1C7C)>
+********************************************************************************  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:09.646+480><thread=7292 (0x1C7C)>
+SMS_EXECUTIVE started SMS_SITE_SYSTEM_STATUS_SUMMARIZER as thread ID 7368 (0x1CC8).  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.751+480><thread=3768 (0xEB8)>
+********************************************************************************  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.751+480><thread=7368 (0x1CC8)>
+SMS_SITE_SYSTEM_STATUS_SUMMARIZER started...  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.751+480><thread=7368 (0x1CC8)>
+Microsoft Endpoint Configuration Manager v5.00 (Build 9078)  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.751+480><thread=7368 (0x1CC8)>
+Copyright (C) 2011 Microsoft Corp.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.751+480><thread=7368 (0x1CC8)>
+---->: Process ID: 2932  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.751+480><thread=7368 (0x1CC8)>
+---->: Worker thread ID: 7368  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.751+480><thread=7368 (0x1CC8)>
+Info>: Processing a site control file change. Updating summarizer properties if needed.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.751+480><thread=7368 (0x1CC8)>
+---->: Reading initial configuration from the registry  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.751+480><thread=7368 (0x1CC8)>
+---->: Getting configuration from site control file  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.751+480><thread=7368 (0x1CC8)>
+---->: The SCF already changed within the last 60 seconds. Waiting 0 seconds first.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.814+480><thread=7368 (0x1CC8)>
+Info>: Site System Resouces have not changed in the SCF since it was last updated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.814+480><thread=7368 (0x1CC8)>
+---->: The new summarizer properties are:  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.814+480><thread=7368 (0x1CC8)>
+---->: Run continuously?  0)No, 1)Yes: 1  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.814+480><thread=7368 (0x1CC8)>
+---->: Replication Priority:           2  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.814+480><thread=7368 (0x1CC8)>
+---->: Status Message Queue Inbox:     Site System Status Summarizer  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.814+480><thread=7368 (0x1CC8)>
+---->: Status Message Queue Length:    0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.829+480><thread=7368 (0x1CC8)>
+---->: Status Message Queue Age:       0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.829+480><thread=7368 (0x1CC8)>
+---->: Wakeup Timer Schedule           0001128000500100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.829+480><thread=7368 (0x1CC8)>
+Inbox source is local on CM1.corp.contoso.com  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.829+480><thread=7368 (0x1CC8)>
+---->: Opened a change notification handle for the "Site Control Manager (Master Site Control File)" inbox.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.829+480><thread=7368 (0x1CC8)>
+---->: Initializing the Inbox: inboxes\SiteStat.Box.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.829+480><thread=7368 (0x1CC8)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.829+480><thread=7368 (0x1CC8)>
+---->: Path to Site System Status Summarizer inbox: C:\Program Files\Microsoft Configuration Manager\inboxes\sitestat.box  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.829+480><thread=7368 (0x1CC8)>
+---->: Opened a Inbox change notification handle for the C:\Program Files\Microsoft Configuration Manager\inboxes\sitestat.box directory.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.829+480><thread=7368 (0x1CC8)>
+---->: SQL Server Version for SMS ACCESS is 14.0.100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.892+480><thread=7368 (0x1CC8)>
+---->: Major SQL Version for connection "SMS ACCESS" is 14  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.892+480><thread=7368 (0x1CC8)>
+---->: Updating the site system objects list.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.892+480><thread=7368 (0x1CC8)>
+Info>: Updating distribution point site objects for ["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.892+480><thread=7368 (0x1CC8)>
+---->: The distribution point ["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ is a server.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.892+480><thread=7368 (0x1CC8)>
+The machine account will be used for ["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\.~  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.907+480><thread=7368 (0x1CC8)>
+No network connection is needed to ["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ as this is the local machine.~  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.907+480><thread=7368 (0x1CC8)>
+---->: Enumerating drives on the server.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.907+480><thread=7368 (0x1CC8)>
+---->: Resource ["Display=\\CM1.corp.contoso.com\C$\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\ is an existing site object.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.907+480><thread=7368 (0x1CC8)>
+---->: There are no pollable objects list in the SCF for system "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\", configured as SMS Notification Server  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.907+480><thread=7368 (0x1CC8)>
+---->: There are no pollable objects list in the SCF for system "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\", configured as SMS Provider  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.907+480><thread=7368 (0x1CC8)>
+---->: There are no pollable objects list in the SCF for system "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\", configured as SMS Site System  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.923+480><thread=7368 (0x1CC8)>
+---->: There are no pollable objects list in the SCF for system "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\", configured as SMS Software Update Point  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.923+480><thread=7368 (0x1CC8)>
+---->: Reading the site systems summary list history from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.923+480><thread=7368 (0x1CC8)>
+---->: Reading site object rows.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.923+480><thread=7368 (0x1CC8)>
+---->: Updating SiteObject for "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\" on "["Display=\\CM1.CORP.CONTOSO.COM\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\" from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.923+480><thread=7368 (0x1CC8)>
+---->: Updating SiteObject for "["Display=\\CM1.corp.contoso.com\C$\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\" on "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\" from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.923+480><thread=7368 (0x1CC8)>
+---->: Updating SiteObject for "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\" on "["Display=\\CM1.CORP.CONTOSO.COM\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\" from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.923+480><thread=7368 (0x1CC8)>
+---->: Updating SiteObject for "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\" on "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\" from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.923+480><thread=7368 (0x1CC8)>
+---->: Updating SiteObject for "["Display=\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\" on "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\" from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.923+480><thread=7368 (0x1CC8)>
+---->: Updating SiteObject for "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\" on "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\" from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.923+480><thread=7368 (0x1CC8)>
+---->: Updating SiteObject for "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\" on "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\" from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.923+480><thread=7368 (0x1CC8)>
+---->: Updating SiteObject thresholds from the "SiteObject Thresholds" property list  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.923+480><thread=7368 (0x1CC8)>
+Info>: Polling site systems ...  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.923+480><thread=7368 (0x1CC8)>
+---->: Now polling SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.923+480><thread=7368 (0x1CC8)>
+---->: Availability State on server CM1.CORP.CONTOSO.COM for role SMS Component Server is 4.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.939+480><thread=7368 (0x1CC8)>
+---->: Now polling SiteObject "["Display=\\CM1.corp.contoso.com\C$\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.939+480><thread=7368 (0x1CC8)>
+---->: Now polling SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.939+480><thread=7368 (0x1CC8)>
+---->: Availability State on server CM1.CORP.CONTOSO.COM for role SMS Dmp Connector is 0.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.939+480><thread=7368 (0x1CC8)>
+---->: Now polling SiteObject "["Display=\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.939+480><thread=7368 (0x1CC8)>
+---->: Availability State on server CM1.corp.contoso.com for role SMS Site Server is 4.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.939+480><thread=7368 (0x1CC8)>
+---->: Now polling via SQL for SiteObject "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:27.939+480><thread=7368 (0x1CC8)>
+---->: SQL Server Version for SMS ACCESS is 14.0.100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.095+480><thread=7368 (0x1CC8)>
+---->: Major SQL Version for connection "SMS ACCESS" is 14  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.095+480><thread=7368 (0x1CC8)>
+---->: Checking space for site database, site object ["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.095+480><thread=7368 (0x1CC8)>
+---->: Checking database file space.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.095+480><thread=7368 (0x1CC8)>
+---->: Database is auto-grow.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.329+480><thread=7368 (0x1CC8)>
+---->: Availability State on server CM1.corp.contoso.com for role SMS SQL Server is 0.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.329+480><thread=7368 (0x1CC8)>
+---->: Now polling via SQL for SiteObject "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.329+480><thread=7368 (0x1CC8)>
+---->: SQL Server Version for SMS ACCESS is 14.0.100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.329+480><thread=7368 (0x1CC8)>
+---->: Major SQL Version for connection "SMS ACCESS" is 14  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.329+480><thread=7368 (0x1CC8)>
+---->: Checking space for site database, site object ["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.329+480><thread=7368 (0x1CC8)>
+---->: Checking transaction log file space.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.329+480><thread=7368 (0x1CC8)>
+---->: Database is auto-grow.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.329+480><thread=7368 (0x1CC8)>
+---->: Availability State on server CM1.corp.contoso.com for role SMS SQL Server is 0.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.345+480><thread=7368 (0x1CC8)>
+---->: Seeing if any site system records need to be replicated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.345+480><thread=7368 (0x1CC8)>
+---->: Since all sites (CAS, Primary and Secondary) are using SQL replication, we do not create replication file. Removing site system records that are marked for deletion from database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.345+480><thread=7368 (0x1CC8)>
+---->: Removing all records marked for deletion from the SiteSystem table  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.345+480><thread=7368 (0x1CC8)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.361+480><thread=7368 (0x1CC8)>
+---->: Done processing any records marked as needing replication.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.376+480><thread=7368 (0x1CC8)>
+---->: Removing any orphaned data from the summary list and the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.376+480><thread=7368 (0x1CC8)>
+---->: Updating the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.392+480><thread=7368 (0x1CC8)>
+---->: All sites (CAS, Primary or Secondary) are using SQL as the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.392+480><thread=7368 (0x1CC8)>
+---->: Updating the Site Systems list for this site to the database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.392+480><thread=7368 (0x1CC8)>
+---->: Updated SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.423+480><thread=7368 (0x1CC8)>
+---->: Updated SiteObject "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.439+480><thread=7368 (0x1CC8)>
+---->: Updated SiteObject "["Display=\\CM1.corp.contoso.com\C$\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.439+480><thread=7368 (0x1CC8)>
+---->: Updated SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.454+480><thread=7368 (0x1CC8)>
+---->: Updated SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.470+480><thread=7368 (0x1CC8)>
+---->: Updated SiteObject "["Display=\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.486+480><thread=7368 (0x1CC8)>
+---->: Updated SiteObject "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.486+480><thread=7368 (0x1CC8)>
+---->: Updated SiteObject "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.517+480><thread=7368 (0x1CC8)>
+---->: Done processing records for the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.517+480><thread=7368 (0x1CC8)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.517+480><thread=7368 (0x1CC8)>
+---->: Seeing if any site system records need to be replicated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.517+480><thread=7368 (0x1CC8)>
+---->: Since all sites (CAS, Primary and Secondary) are using SQL replication, we do not create replication file. Removing site system records that are marked for deletion from database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.517+480><thread=7368 (0x1CC8)>
+---->: Removing all records marked for deletion from the SiteSystem table  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.517+480><thread=7368 (0x1CC8)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.517+480><thread=7368 (0x1CC8)>
+---->: Done processing any records marked as needing replication.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.532+480><thread=7368 (0x1CC8)>
+---->: Starting the main event loop.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.532+480><thread=7368 (0x1CC8)>
+---->: Received an Inbox notification, waiting 10 seconds before processing.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:28.532+480><thread=7368 (0x1CC8)>
+---->: Reset the Inbox change notification handle for the C:\Program Files\Microsoft Configuration Manager\inboxes\sitestat.box directory.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:38.532+480><thread=7368 (0x1CC8)>
+---->: Now processing anything that may be pending.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:38.532+480><thread=7368 (0x1CC8)>
+---->: Updating the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:38.532+480><thread=7368 (0x1CC8)>
+---->: All sites (CAS, Primary or Secondary) are using SQL as the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:38.532+480><thread=7368 (0x1CC8)>
+---->: Updating the Site Systems list for this site to the database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:38.532+480><thread=7368 (0x1CC8)>
+---->: Done processing records for the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:38.532+480><thread=7368 (0x1CC8)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:38.532+480><thread=7368 (0x1CC8)>
+---->: Seeing if any site system records need to be replicated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:38.532+480><thread=7368 (0x1CC8)>
+---->: Since all sites (CAS, Primary and Secondary) are using SQL replication, we do not create replication file. Removing site system records that are marked for deletion from database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:38.548+480><thread=7368 (0x1CC8)>
+---->: Removing all records marked for deletion from the SiteSystem table  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:38.548+480><thread=7368 (0x1CC8)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:38.548+480><thread=7368 (0x1CC8)>
+---->: Done processing any records marked as needing replication.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:38.548+480><thread=7368 (0x1CC8)>
+Info>: Resetting the default heartbeat timer. It will expire by: Sun Feb 26 20:00:00 2023~  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:38.548+480><thread=7368 (0x1CC8)>
+---->: SMS_SITE_SYSTEM_STATUS_SUMMARIZER stopping. The exit code is 0xfffffffe  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:48.126+480><thread=7368 (0x1CC8)>
+SMS_SITE_SYSTEM_STATUS_SUMMARIZER stopped.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:48.142+480><thread=7368 (0x1CC8)>
+********************************************************************************  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:55:48.142+480><thread=7368 (0x1CC8)>
+SMS_EXECUTIVE started SMS_SITE_SYSTEM_STATUS_SUMMARIZER as thread ID 7384 (0x1CD8).  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:05.346+480><thread=3488 (0xDA0)>
+********************************************************************************  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:05.346+480><thread=7384 (0x1CD8)>
+SMS_SITE_SYSTEM_STATUS_SUMMARIZER started...  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:05.346+480><thread=7384 (0x1CD8)>
+Microsoft Endpoint Configuration Manager v5.00 (Build 9078)  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:05.346+480><thread=7384 (0x1CD8)>
+Copyright (C) 2011 Microsoft Corp.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:05.346+480><thread=7384 (0x1CD8)>
+---->: Process ID: 2772  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:05.346+480><thread=7384 (0x1CD8)>
+---->: Worker thread ID: 7384  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:05.346+480><thread=7384 (0x1CD8)>
+Info>: Processing a site control file change. Updating summarizer properties if needed.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:05.346+480><thread=7384 (0x1CD8)>
+---->: Reading initial configuration from the registry  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:05.346+480><thread=7384 (0x1CD8)>
+---->: Getting configuration from site control file  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:05.346+480><thread=7384 (0x1CD8)>
+---->: The SCF already changed within the last 60 seconds. Waiting 2 seconds first.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:07.502+480><thread=7384 (0x1CD8)>
+Info>: Site System Resouces have not changed in the SCF since it was last updated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.518+480><thread=7384 (0x1CD8)>
+---->: The new summarizer properties are:  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.518+480><thread=7384 (0x1CD8)>
+---->: Run continuously?  0)No, 1)Yes: 1  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.518+480><thread=7384 (0x1CD8)>
+---->: Replication Priority:           2  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.518+480><thread=7384 (0x1CD8)>
+---->: Status Message Queue Inbox:     Site System Status Summarizer  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.518+480><thread=7384 (0x1CD8)>
+---->: Status Message Queue Length:    0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.518+480><thread=7384 (0x1CD8)>
+---->: Status Message Queue Age:       0  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.518+480><thread=7384 (0x1CD8)>
+---->: Wakeup Timer Schedule           0001128000500100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.518+480><thread=7384 (0x1CD8)>
+Inbox source is local on CM1.corp.contoso.com  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.518+480><thread=7384 (0x1CD8)>
+---->: Opened a change notification handle for the "Site Control Manager (Master Site Control File)" inbox.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.518+480><thread=7384 (0x1CD8)>
+---->: Initializing the Inbox: inboxes\SiteStat.Box.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.518+480><thread=7384 (0x1CD8)>
+Inbox source is local on CM1.CORP.CONTOSO.COM  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.518+480><thread=7384 (0x1CD8)>
+---->: Path to Site System Status Summarizer inbox: C:\Program Files\Microsoft Configuration Manager\inboxes\sitestat.box  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.534+480><thread=7384 (0x1CD8)>
+---->: Opened a Inbox change notification handle for the C:\Program Files\Microsoft Configuration Manager\inboxes\sitestat.box directory.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.534+480><thread=7384 (0x1CD8)>
+---->: SQL Server Version for SMS ACCESS is 14.0.100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.580+480><thread=7384 (0x1CD8)>
+---->: Major SQL Version for connection "SMS ACCESS" is 14  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.580+480><thread=7384 (0x1CD8)>
+---->: Updating the site system objects list.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.596+480><thread=7384 (0x1CD8)>
+Info>: Updating distribution point site objects for ["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.596+480><thread=7384 (0x1CD8)>
+---->: The distribution point ["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ is a server.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.596+480><thread=7384 (0x1CD8)>
+The machine account will be used for ["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\.~  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.596+480><thread=7384 (0x1CD8)>
+No network connection is needed to ["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ as this is the local machine.~  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.596+480><thread=7384 (0x1CD8)>
+---->: Enumerating drives on the server.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.596+480><thread=7384 (0x1CD8)>
+---->: Resource ["Display=\\CM1.corp.contoso.com\C$\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\ is an existing site object.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.596+480><thread=7384 (0x1CD8)>
+---->: There are no pollable objects list in the SCF for system "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\", configured as SMS Notification Server  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.612+480><thread=7384 (0x1CD8)>
+---->: There are no pollable objects list in the SCF for system "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\", configured as SMS Provider  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.612+480><thread=7384 (0x1CD8)>
+---->: There are no pollable objects list in the SCF for system "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\", configured as SMS Site System  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.612+480><thread=7384 (0x1CD8)>
+---->: Reading the site systems summary list history from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.612+480><thread=7384 (0x1CD8)>
+---->: Reading site object rows.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.612+480><thread=7384 (0x1CD8)>
+---->: Updating SiteObject for "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\" on "["Display=\\CM1.CORP.CONTOSO.COM\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\" from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.612+480><thread=7384 (0x1CD8)>
+---->: Updating SiteObject for "["Display=\\CM1.corp.contoso.com\C$\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\" on "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\" from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.612+480><thread=7384 (0x1CD8)>
+---->: Updating SiteObject for "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\" on "["Display=\\CM1.CORP.CONTOSO.COM\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\" from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.612+480><thread=7384 (0x1CD8)>
+---->: Updating SiteObject for "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\" on "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\" from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.612+480><thread=7384 (0x1CD8)>
+---->: Updating SiteObject for "["Display=\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\" on "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\" from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.612+480><thread=7384 (0x1CD8)>
+---->: Updating SiteObject for "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\" on "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\" from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.612+480><thread=7384 (0x1CD8)>
+---->: Updating SiteObject for "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\" on "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\" from the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+---->: Updating SiteObject thresholds from the "SiteObject Thresholds" property list  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+Info>: Polling site systems ...  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+---->: Now polling SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+---->: Availability State on server CM1.CORP.CONTOSO.COM for role SMS Component Server is 4.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+---->: Now polling SiteObject "["Display=\\CM1.corp.contoso.com\C$\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+---->: Now polling SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+---->: Availability State on server CM1.CORP.CONTOSO.COM for role SMS Dmp Connector is 0.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+---->: Now polling SiteObject "["Display=\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+---->: Availability State on server CM1.corp.contoso.com for role SMS Site Server is 4.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+---->: Now polling SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+---->: Availability State on server CM1.corp.contoso.com for role SMS Software Update Point is 4.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+---->: Now polling via SQL for SiteObject "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+---->: SQL Server Version for SMS ACCESS is 14.0.100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+---->: Major SQL Version for connection "SMS ACCESS" is 14  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+---->: Checking space for site database, site object ["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+---->: Checking database file space.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.627+480><thread=7384 (0x1CD8)>
+---->: Database is auto-grow.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.690+480><thread=7384 (0x1CD8)>
+---->: Availability State on server CM1.corp.contoso.com for role SMS SQL Server is 0.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.690+480><thread=7384 (0x1CD8)>
+---->: Now polling via SQL for SiteObject "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.690+480><thread=7384 (0x1CD8)>
+---->: SQL Server Version for SMS ACCESS is 14.0.100  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.690+480><thread=7384 (0x1CD8)>
+---->: Major SQL Version for connection "SMS ACCESS" is 14  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.690+480><thread=7384 (0x1CD8)>
+---->: Checking space for site database, site object ["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.690+480><thread=7384 (0x1CD8)>
+---->: Checking transaction log file space.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.690+480><thread=7384 (0x1CD8)>
+---->: Database is auto-grow.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.690+480><thread=7384 (0x1CD8)>
+---->: Availability State on server CM1.corp.contoso.com for role SMS SQL Server is 0.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.690+480><thread=7384 (0x1CD8)>
+---->: Seeing if any site system records need to be replicated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.690+480><thread=7384 (0x1CD8)>
+---->: Since all sites (CAS, Primary and Secondary) are using SQL replication, we do not create replication file. Removing site system records that are marked for deletion from database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.690+480><thread=7384 (0x1CD8)>
+---->: Removing all records marked for deletion from the SiteSystem table  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.690+480><thread=7384 (0x1CD8)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.705+480><thread=7384 (0x1CD8)>
+---->: Done processing any records marked as needing replication.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.721+480><thread=7384 (0x1CD8)>
+---->: Removing any orphaned data from the summary list and the datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.721+480><thread=7384 (0x1CD8)>
+---->: Updating the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.721+480><thread=7384 (0x1CD8)>
+---->: All sites (CAS, Primary or Secondary) are using SQL as the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.721+480><thread=7384 (0x1CD8)>
+---->: Updating the Site Systems list for this site to the database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.721+480><thread=7384 (0x1CD8)>
+---->: Updated SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.737+480><thread=7384 (0x1CD8)>
+---->: Updated SiteObject "["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.737+480><thread=7384 (0x1CD8)>
+---->: Updated SiteObject "["Display=\\CM1.corp.contoso.com\C$\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.752+480><thread=7384 (0x1CD8)>
+---->: Updated SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.752+480><thread=7384 (0x1CD8)>
+---->: Updated SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.768+480><thread=7384 (0x1CD8)>
+---->: Updated SiteObject "["Display=\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.768+480><thread=7384 (0x1CD8)>
+---->: Updated SiteObject "["Display=\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.CORP.CONTOSO.COM\C$\Program Files\Microsoft Configuration Manager\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.768+480><thread=7384 (0x1CD8)>
+---->: Updated SiteObject "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.784+480><thread=7384 (0x1CD8)>
+---->: Updated SiteObject "["Display=ConfigMgr_CHQ"]SQL:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\ConfigMgr_CHQ\"  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.784+480><thread=7384 (0x1CD8)>
+---->: Done processing records for the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.784+480><thread=7384 (0x1CD8)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.784+480><thread=7384 (0x1CD8)>
+---->: Seeing if any site system records need to be replicated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.799+480><thread=7384 (0x1CD8)>
+---->: Since all sites (CAS, Primary and Secondary) are using SQL replication, we do not create replication file. Removing site system records that are marked for deletion from database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.799+480><thread=7384 (0x1CD8)>
+---->: Removing all records marked for deletion from the SiteSystem table  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.799+480><thread=7384 (0x1CD8)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.799+480><thread=7384 (0x1CD8)>
+---->: Done processing any records marked as needing replication.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.799+480><thread=7384 (0x1CD8)>
+---->: Starting the main event loop.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.799+480><thread=7384 (0x1CD8)>
+---->: Received an Inbox notification, waiting 10 seconds before processing.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:09.799+480><thread=7384 (0x1CD8)>
+Info>: Processing the incoming replication file: C:\Program Files\Microsoft Configuration Manager\inboxes\sitestat.box\k14vx6wt.SUM  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.799+480><thread=7384 (0x1CD8)>
+---->: Processing replication file...  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.799+480><thread=7384 (0x1CD8)>
+---->: Skip the old file notification for role SMS Software Update Point on ["Display=\\CM1.corp.contoso.com\"]MSWNET:["SMS_SITE=CHQ"]\\CM1.corp.contoso.com\  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.799+480><thread=7384 (0x1CD8)>
+---->: The list is empty There is nothing to send to datastore.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.799+480><thread=7384 (0x1CD8)>
+---->: Now processing anything that may be pending.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.799+480><thread=7384 (0x1CD8)>
+---->: Updating the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.799+480><thread=7384 (0x1CD8)>
+---->: All sites (CAS, Primary or Secondary) are using SQL as the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.799+480><thread=7384 (0x1CD8)>
+---->: Updating the Site Systems list for this site to the database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.799+480><thread=7384 (0x1CD8)>
+---->: Done processing records for the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.799+480><thread=7384 (0x1CD8)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.799+480><thread=7384 (0x1CD8)>
+---->: Seeing if any site system records need to be replicated.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.815+480><thread=7384 (0x1CD8)>
+---->: Since all sites (CAS, Primary and Secondary) are using SQL replication, we do not create replication file. Removing site system records that are marked for deletion from database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.815+480><thread=7384 (0x1CD8)>
+---->: Removing all records marked for deletion from the SiteSystem table  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.815+480><thread=7384 (0x1CD8)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.815+480><thread=7384 (0x1CD8)>
+---->: Done processing any records marked as needing replication.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.815+480><thread=7384 (0x1CD8)>
+---->: Reset the Inbox change notification handle for the C:\Program Files\Microsoft Configuration Manager\inboxes\sitestat.box directory.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.815+480><thread=7384 (0x1CD8)>
+---->: Now processing anything that may be pending.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.815+480><thread=7384 (0x1CD8)>
+---->: Updating the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.815+480><thread=7384 (0x1CD8)>
+---->: All sites (CAS, Primary or Secondary) are using SQL as the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.815+480><thread=7384 (0x1CD8)>
+---->: Updating the Site Systems list for this site to the database.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.815+480><thread=7384 (0x1CD8)>
+---->: Done processing records for the datastore  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.815+480><thread=7384 (0x1CD8)>
+---->: Updating Site Status table.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.830+480><thread=7384 (0x1CD8)>
+Info>: Resetting the default heartbeat timer. It will expire by: Sun Feb 26 20:00:00 2023~  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:19.830+480><thread=7384 (0x1CD8)>
+---->: SMS_SITE_SYSTEM_STATUS_SUMMARIZER stopping. The exit code is 0xfffffffe  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:28.315+480><thread=7384 (0x1CD8)>
+SMS_SITE_SYSTEM_STATUS_SUMMARIZER stopped.  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:28.331+480><thread=7384 (0x1CD8)>
+********************************************************************************  $$<SMS_SITE_SYSTEM_STATUS_SUMMARIZER><02-26-2023 19:56:28.331+480><thread=7384 (0x1CD8)>

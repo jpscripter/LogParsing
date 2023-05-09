@@ -1,0 +1,36 @@
+﻿<![LOG[Successfully subscribed listener to registry key.]LOG]!><time="19:53:11.7776356" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="26" file="">
+<![LOG[Waiting for CommonWorker to be ready ...]LOG]!><time="19:53:11.7776356" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="26" file="">
+<![LOG[M365AWorkerConfig initializing ...]LOG]!><time="19:53:22.9495345" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="26" file="">
+<![LOG[Starting worker M365AUploadWorker...]LOG]!><time="19:53:22.9495345" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="26" file="">
+<![LOG[[M365AUploadWorker] Scheduling timer to start at 2/26/2023 7:53:23 PM with frequency -00:00:00.0010000]LOG]!><time="19:53:22.9495345" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="26" file="">
+<![LOG[Worker M365AUploadWorker was triggered by timer.]LOG]!><time="19:53:23.9651486" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="50" file="">
+<![LOG[Triggered M365AUploadWorker::ExecuteAsync()]LOG]!><time="19:53:23.9651486" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="50" file="">
+<![LOG[M365Analytics feature is not configured. Exiting task.]LOG]!><time="19:53:23.9651486" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="9" file="">
+<![LOG[Worker is not enabled or configured. Exiting task.]LOG]!><time="19:53:23.9651486" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="9" file="">
+<![LOG[Worker M365AUploadWorker has finished processing.]LOG]!><time="19:53:23.9651486" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="50" file="">
+<![LOG[Next run time will be at approximately: 02/26/2023 20:08:23]LOG]!><time="19:53:23.9651486" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="50" file="">
+<![LOG[Stopping worker M365AUploadWorker...]LOG]!><time="19:55:09.6624538" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="84" file="">
+<![LOG[Successfully subscribed listener to registry key.]LOG]!><time="19:55:32.5485466" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="54" file="">
+<![LOG[Waiting for CommonWorker to be ready ...]LOG]!><time="19:55:32.5485466" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="54" file="">
+<![LOG[M365AWorkerConfig initializing ...]LOG]!><time="19:55:45.7517006" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="54" file="">
+<![LOG[Starting worker M365AUploadWorker...]LOG]!><time="19:55:45.7517006" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="54" file="">
+<![LOG[[M365AUploadWorker] Scheduling timer to start at 2/26/2023 7:55:46 PM with frequency -00:00:00.0010000]LOG]!><time="19:55:45.7517006" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="54" file="">
+<![LOG[Worker M365AUploadWorker was triggered by timer.]LOG]!><time="19:55:46.7674155" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="75" file="">
+<![LOG[Triggered M365AUploadWorker::ExecuteAsync()]LOG]!><time="19:55:46.7674155" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="75" file="">
+<![LOG[M365Analytics feature is not configured. Exiting task.]LOG]!><time="19:55:46.7674155" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="65" file="">
+<![LOG[Worker is not enabled or configured. Exiting task.]LOG]!><time="19:55:46.7674155" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="65" file="">
+<![LOG[Worker M365AUploadWorker has finished processing.]LOG]!><time="19:55:46.7674155" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="75" file="">
+<![LOG[Next run time will be at approximately: 02/26/2023 20:10:46]LOG]!><time="19:55:46.7674155" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="75" file="">
+<![LOG[Stopping worker M365AUploadWorker...]LOG]!><time="19:55:48.1424661" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="75" file="">
+<![LOG[Successfully subscribed listener to registry key.]LOG]!><time="19:56:08.9715531" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="54" file="">
+<![LOG[Waiting for CommonWorker to be ready ...]LOG]!><time="19:56:08.9715531" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="54" file="">
+<![LOG[M365AWorkerConfig initializing ...]LOG]!><time="19:56:23.1903053" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="54" file="">
+<![LOG[Starting worker M365AUploadWorker...]LOG]!><time="19:56:23.1903053" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="54" file="">
+<![LOG[[M365AUploadWorker] Scheduling timer to start at 2/26/2023 7:56:24 PM with frequency -00:00:00.0010000]LOG]!><time="19:56:23.1903053" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="54" file="">
+<![LOG[Worker M365AUploadWorker was triggered by timer.]LOG]!><time="19:56:24.1903729" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="75" file="">
+<![LOG[Triggered M365AUploadWorker::ExecuteAsync()]LOG]!><time="19:56:24.1903729" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="75" file="">
+<![LOG[M365Analytics feature is not configured. Exiting task.]LOG]!><time="19:56:24.1903729" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="67" file="">
+<![LOG[Worker is not enabled or configured. Exiting task.]LOG]!><time="19:56:24.1903729" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="67" file="">
+<![LOG[Worker M365AUploadWorker has finished processing.]LOG]!><time="19:56:24.1903729" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="75" file="">
+<![LOG[Next run time will be at approximately: 02/26/2023 20:11:24]LOG]!><time="19:56:24.1903729" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="75" file="">
+<![LOG[Stopping worker M365AUploadWorker...]LOG]!><time="19:56:28.3468203" date="2-26-2023" component="SMS_SERVICE_CONNECTOR_M365AUploadWorker" context="" type="1" thread="12" file="">

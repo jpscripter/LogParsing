@@ -1,0 +1,13 @@
+﻿<Sun Feb 26 19:51:17 2023> ====================================================================
+﻿<Sun Feb 26 19:51:17 2023> RESTPROVIDER Setup Started....
+﻿<Sun Feb 26 19:51:17 2023> Parameters: C:\Program Files\Microsoft Configuration Manager\bin\x64\rolesetup.exe /install /siteserver:CM1 RESTPROVIDER 0
+﻿<Sun Feb 26 19:51:17 2023> Installing Pre Reqs for RESTPROVIDER
+﻿<Sun Feb 26 19:51:17 2023>         ======== Installing Pre Reqs for Role RESTPROVIDER ========
+﻿<Sun Feb 26 19:51:17 2023> Found 1 Pre Reqs for Role RESTPROVIDER 
+﻿<Sun Feb 26 19:51:17 2023> Pre Req SqlNativeClient found.
+﻿<Sun Feb 26 19:51:17 2023> SqlNativeClient is already installed (Product Code: {9D93D367-A2CC-4378-BD63-79EF3FE76C78}). But to support TLS1.2, a new version with Product Code: {B9274744-8BAE-4874-8E59-2610919CD419} needs to be manually installed 
+﻿<Sun Feb 26 19:51:17 2023> Pre Req SqlNativeClient is already installed. Skipping it.
+﻿<Sun Feb 26 19:51:17 2023>         ======== Completed Installation of Pre Reqs for Role RESTPROVIDER ========
+﻿<Sun Feb 26 19:51:17 2023> Installing the RESTPROVIDER
+﻿<Sun Feb 26 19:51:17 2023> Installation was successful.
+﻿<Sun Feb 26 19:51:17 2023> ~RoleSetup().
