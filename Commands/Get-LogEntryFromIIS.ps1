@@ -38,7 +38,6 @@ Function Get-LogEntryFromIIS {
             $entry = new-object logEntry
             $entry.Message = $match
             $entry.Component = $DetailsHash['cs-uri-stem']
-            $entry.thread = $DetailsHash['s-port']
             
             # custom iis errors
             switch ($DetailsHash['sc-status']){
