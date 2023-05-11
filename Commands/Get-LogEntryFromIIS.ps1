@@ -3,7 +3,8 @@ Function Get-LogEntryFromIIS {
     param(
         [parameter(Mandatory=$true,ValueFromPipeline)]
         [string]$LogContent,
-        [string] $headers
+        [string] $headers,
+        [switch] $AllDetails
     )
     Begin{
         $HeadersNames = $headers.Split()
@@ -11,9 +12,9 @@ Function Get-LogEntryFromIIS {
     Process {
 
         # find new entries
-        $matches = $LogContent.split("`n")
-        $logEntries = new-object -TypeName System.Collections.Generic.List[LogEntry]
-        foreach($match in $matches){
+        $LogMatches = $LogContent.split("`n")
+        $logEntries = new-object -TypeName Collections.arraylist
+        foreach($match in $LogMatches){
             if ($match.StartsWith('#')){Continue}
             $DetailRow = $match.split()
             $DetailsHash = @{}

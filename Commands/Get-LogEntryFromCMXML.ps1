@@ -11,9 +11,9 @@ Function Get-LogEntryFromCMXML {
     Process {
 
         # find new entries
-        $matches = [regex]::matches($LogContent,$pattern)
-        $logEntries = new-object -TypeName System.Collections.Generic.List[LogEntry]
-        foreach($match in $matches){
+        $LogMatches = [regex]::matches($LogContent,$pattern)
+        $logEntries = new-object -TypeName Collections.arraylist
+        foreach($match in $LogMatches){
             $DetailRow = $match.groups[2].value.split(' ')
             $DetailsHash = @{}
             foreach ($detail in $DetailRow){
@@ -42,7 +42,7 @@ Function Get-LogEntryFromCMXML {
             $Null = [datetime]::TryParse($DateTimeString, [ref] $datetime)
             $entry.datetime = $datetime
             
-            $entry.severity = 
+            $entry.severity = Get-LogEntrySeverity -Message $match.groups[1].value
             $null = $logEntries.add($entry)
         }
     }

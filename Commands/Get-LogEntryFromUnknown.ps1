@@ -6,36 +6,24 @@ Function Get-LogEntryFromUnknown{
         [switch] $AllDetails
     )
     Begin{
-        $UnknownPattern = '<\!\[LOG\[(.*)]LOG]\!><(.*)>'
+        $DatePattern = '\d{1,2}[\/-]\d{1,2}[\/-]\d{4}'
+        $TimePattern = '\d{1,2}[:]\d{1,2}(([:]\d{1,4})|)'
     }
     Process {
 
         # find new entries
-        $matches = [regex]::matches($LogContent,$XMLpattern)
-        $logEntries = new-object -TypeName System.Collections.Generic.List[LogEntry]
-        foreach($match in $matches){
-            $DetailRow = $match.groups[2].value.split(' ')
-            $DetailsHash = @{}
-            foreach ($detail in $DetailRow){
-                try{
-                    $name = $detail.split('=')[0]
-                    $value = $detail.split('=')[1] -replace '"',''
-                    $DetailsHash.add($name,$value)
-                }
-                Catch{
-                    Write-warning -Message "$name duplicated for $file"
-                }
-            }
-
+        $LogMatches = $LogContent.Split("`n")
+        $logEntries = new-object -TypeName Collections.arraylist
+        foreach($match in $LogMatches){
             #build entry
             $entry = new-object logEntry
-            $entry.Message = $match.groups[1].value
-            $entry.Component = $DetailsHash['component']
-            $entry.thread = $DetailsHash['thread']
-            if ($AllDetails.IsPresent){
-                $entry.details = $DetailsHash | ConvertTo-Json
-            }
-            $DateTimeString = "$($DetailsHash['Date']) $($DetailsHash['time'].split('.')[0])"
+            $entry.Message = $match
+            if ([String]::IsNullOrWhiteSpace($match)){Continue}
+            $entry.Severity = Get-LogEntrySeverity -message $match
+
+            $Date = [regex]::match($match, $DatePattern).value
+            $Time = [regex]::match($match, $TimePattern).value
+            $DateTimeString = "$date $Time"
             $datetime = 0
             $Null = [datetime]::TryParse($DateTimeString, [ref] $datetime)
             $entry.datetime = $datetime

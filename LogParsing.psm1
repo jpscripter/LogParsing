@@ -28,11 +28,11 @@ class LogEntry{
 class LogDetails 
 {
     LogDetails (){
-        $this.LogEntry =[System.Collections.Generic.List[LogEntry]]::new()
+        $this.LogEntry = new-object Collections.arraylist
     }
     [System.IO.StreamReader] $StreamReader
     [string] $type
-    [System.Collections.Generic.List[LogEntry]] $LogEntry
+    [Collections.arraylist] $LogEntry
     [string]$logParsingParams
 }
 #endregion

@@ -13,7 +13,7 @@ Function Get-LogEntryFromMSI {
 
         # find new entries
         $lines = $LogContent.split("`n")
-        $logEntries = new-object -TypeName System.Collections.Generic.List[LogEntry]
+        $logEntries = new-object -TypeName Collections.arraylist
         foreach($line in $lines){
             if ($entry -and $line.StartsWith('MSI')){
                 #Finalize entry

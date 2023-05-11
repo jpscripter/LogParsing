@@ -61,6 +61,7 @@ Function Get-LogType {
             #Make memory Object
             $LogDetails = new-object -TypeName LogDetails 
             $LogDetails.Type = $logtype
+            $sr.BaseStream.Position = 0
             $LogDetails.StreamReader = $sr
             $script:LogFiles.add($File.FullName,$LogDetails)
         
