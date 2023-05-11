@@ -1,15 +1,29 @@
 #region settings
 $script:LogFiles = @{}
 $script:LinesToKeep = 2000
+$script:ErrorKeywords = @('fail','error', 'unsuccessful')
+$script:WarningKeywords = @('warning')
+$script:DebugKeywords = @('debug')
+$script:VerboseKeywords = @('verbose')
+$script:InformationKeywords = @('info:','STATMSG:')
 #endregion
 
 #region classes
+enum Severity {
+    normal = 0
+    information = 1
+    warning = 2
+    Error = 3
+    verbose = 4
+    debug = 5
+}
 class LogEntry{
     [string] $Message
     [string] $Component
     [DateTime] $Datetime
     [int] $thread
-    [string] $details
+    [PSCustomObject] $details
+    [Severity] $severity = 1
 }
 class LogDetails 
 {
@@ -19,6 +33,7 @@ class LogDetails
     [System.IO.StreamReader] $StreamReader
     [string] $type
     [System.Collections.Generic.List[LogEntry]] $LogEntry
+    [string]$logParsingParams
 }
 #endregion
 

@@ -1,35 +1,16 @@
 
-Function Get-LogEntryCMXML { 
+Function Get-LogEntryFromUnknown{ 
     param(
         [parameter(Mandatory=$true,ValueFromPipeline)]
-        [System.IO.FileInfo]$File,
+        [string]$LogContent,
         [switch] $AllDetails
     )
     Begin{
-        $XMLpattern = '<\!\[LOG\[(.*)]LOG]\!><(.*)>'
+        $UnknownPattern = '<\!\[LOG\[(.*)]LOG]\!><(.*)>'
     }
     Process {
-        #wait-debugger
-        if (-not $file.Exists){
-            Write-Warning -Message "File not found: $($File.Fullname)"
-            return
-        }
 
-        #Override if called directly and not in memory
-        if (-not $script:LogFiles.contains($File.FullName)){
-            #Get First line for match
-            $fs = [System.IO.FileStream]::new($File.fullname, 'Open', 'Read', [System.IO.FileShare]::ReadWrite + [System.IO.FileShare]::Delete)
-            $sr = [System.IO.StreamReader]::new($fs)
-            $LogDetails = new-object -TypeName LogDetails 
-            $LogDetails.Type = 'CMXMLLog'
-            $LogDetails.StreamReader = $sr
-            $script:LogFiles.add($File.FullName,$LogDetails)
-        }else{
-            $sr = $script:LogFiles[$File.FullName].StreamReader
-        }
-            
         # find new entries
-        $LogContent = $sr.ReadToEnd()
         $matches = [regex]::matches($LogContent,$XMLpattern)
         $logEntries = new-object -TypeName System.Collections.Generic.List[LogEntry]
         foreach($match in $matches){
@@ -58,18 +39,10 @@ Function Get-LogEntryCMXML {
             $datetime = 0
             $Null = [datetime]::TryParse($DateTimeString, [ref] $datetime)
             $entry.datetime = $datetime
-            $logEntries.add($entry)
+            $null = $logEntries.add($entry)
         }
-
-        #save to memory and return
-        if ($script:LogFiles[$File.FullName].LogEntry.count -eq 0){
-            $script:LogFiles[$File.FullName].LogEntry = $logEntries
-        }else{
-            $script:LogFiles[$File.FullName].LogEntry.addrange($logEntries)
-        }
-        $script:LogFiles[$File.FullName].LogEntry 
-
     }
     End {
+        $logEntries
     }
 }

@@ -8,6 +8,7 @@ Function Get-LogType {
         $CMpattern = '(.*)\$\$<(.*)><(.*)><thread=([0-9]*).*>'
         $XMLpattern = '<\!\[LOG\[(.*)]LOG]\!>'
         $IISPattern = 'Internet Information Services'
+        $MSIPattern = 'MSI\s\(.\)\s\(.*\)\s\[[\d:]*\]:'
     }
     Process {
         #wait-debugger
@@ -32,15 +33,19 @@ Function Get-LogType {
                 $LogType = $null
                 Switch -regex ($line)  {
                     $CMpattern {
-                        $logType = 'CMLog'
+                        $logType = 'CM'
                         Break
                     }
                     $XMLpattern {
-                        $logType = 'CMXMLLog'
+                        $logType = 'CMXML'
                         Break
                     }
                     $IISPattern {
                         $logType = 'IIS'
+                        Break
+                    }
+                    $MSIPattern {
+                        $logType = 'MSI'
                         Break
                     }
                     Default {
