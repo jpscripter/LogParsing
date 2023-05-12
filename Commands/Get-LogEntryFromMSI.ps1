@@ -7,7 +7,6 @@ Function Get-LogEntryFromMSI {
         [switch] $AllDetails
     )
     Begin{
-        $pattern = 'MSI\s\(s|c\)'
     }
     Process {
 
@@ -19,6 +18,23 @@ Function Get-LogEntryFromMSI {
                 #Finalize entry
                 $entry.Message = $Message
                 $entry.severity =  Get-LogEntrySeverity -Message $message
+                if ($entry.severity -eq [severity]::Error){
+                    [int]$errorcode = Get-LogEntryErrorMessage -message $message
+                    if ($errorcode -eq 0){
+                        $entry.severity = [Severity]::normal
+                    }else{
+                        Try{
+                            $DetailsHash = [PSCustomObject]@{
+                                Errorcode = $errorcode
+                                ErrorMessage = [System.ComponentModel.Win32Exception]$errorcode
+                            }
+                            $entry.details = $DetailsHash
+                        }
+                        Catch{
+                            Write-verbose -message "Could not convert $errorcode to error message"
+                        }
+                    }
+                }
                 $null = $logEntries.add($entry)
 
                 #start next entry
@@ -47,6 +63,23 @@ Function Get-LogEntryFromMSI {
         #get last item
         $entry.Message = $Message
         $entry.severity =  Get-LogEntrySeverity -Message $message
+        if ($entry.severity -eq [severity]::Error){
+            [int]$errorcode = Get-LogEntryErrorMessage -message $message
+            if ($errorcode -eq 0){
+                $entry.severity = [Severity]::normal
+            }else{
+                Try{
+                    $DetailsHash = [PSCustomObject]@{
+                        Errorcode = $errorcode
+                        ErrorMessage = [System.ComponentModel.Win32Exception]$errorcode
+                    }
+                    $entry.details = $DetailsHash
+                }
+                Catch{
+                    Write-verbose -message "Could not convert $errorcode to error message"
+                }
+            }
+        }
         $null = $logEntries.add($entry)
     }
     End {

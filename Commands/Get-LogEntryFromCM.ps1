@@ -17,9 +17,28 @@ Function Get-LogEntryFromCM {
            
             #build entry
             $entry = new-object logEntry
-            $entry.Message = $match.groups[1].value
+            $message =  $match.groups[1].value
+            $entry.Message = $message
             $entry.Component = $match.groups[2].value
-            $entry.thread = $match.groups[4].value
+            $entry.thread = $match.groups[4].value 
+            $entry.severity = Get-LogEntrySeverity -Message $message
+            if ($entry.severity -eq [severity]::Error){
+                [int]$errorcode = Get-LogEntryErrorMessage -message $message
+                if ($errorcode -eq 0 ){
+                    $entry.severity = [Severity]::normal
+                }else{
+                    Try{
+                        $DetailsHash = [PSCustomObject]@{
+                            Errorcode = $errorcode
+                            ErrorMessage = [System.ComponentModel.Win32Exception]$errorcode
+                        }
+                        $entry.details = $DetailsHash
+                    }
+                    Catch{
+                        Write-verbose -message "Could not convert $errorcode to error message"
+                    }
+                }
+            }
             $DateTimeString = "$($match.groups[3].value.split('.')[0])"
             $datetime = 0
             $Null = [datetime]::TryParse($DateTimeString, [ref] $datetime)

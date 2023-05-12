@@ -18,9 +18,14 @@ Function Get-Log {
 
         #Override if called directly and not in memory
         $logType = Get-logtype -File $file 
-        $sr = $script:LogFiles[$File.FullName].StreamReader
+        $fs = [System.IO.FileStream]::new($File.fullname, 'Open', 'Read', [System.IO.FileShare]::ReadWrite + [System.IO.FileShare]::Delete)
+        $sr = [System.IO.StreamReader]::new($fs);
         
-            
+        #Pickup where we left off unless the log rolled over
+        if ($script:LogFiles[$File.FullName].StreamReaderPosition -le $sr.BaseStream.length){
+            $sr.BaseStream.Position = $script:LogFiles[$File.FullName].StreamReaderPosition
+        }
+        
         # find new entries
         $LogContent = $sr.ReadToEnd()
         if (-not [string]::IsNullOrWhiteSpace($LogContent)){
@@ -63,6 +68,11 @@ Function Get-Log {
         }
         $script:LogFiles[$File.FullName].LogEntry 
 
+        #close stream
+        $sr.close()
+        $sr.Dispose()
+        $FS.Close()
+        $FS.Dispose()
     }
     End {
     }

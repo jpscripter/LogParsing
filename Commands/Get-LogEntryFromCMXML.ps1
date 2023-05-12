@@ -15,12 +15,12 @@ Function Get-LogEntryFromCMXML {
         $logEntries = new-object -TypeName Collections.arraylist
         foreach($match in $LogMatches){
             $DetailRow = $match.groups[2].value.split(' ')
-            $DetailsHash = @{}
+            $Loghash = @{}
             foreach ($detail in $DetailRow){
                 try{
                     $name = $detail.split('=')[0]
                     $value = $detail.split('=')[1] -replace '"',''
-                    $DetailsHash.add($name,$value)
+                    $Loghash.add($name,$value)
                 }
                 Catch{
                     Write-warning -Message "$name duplicated for $file"
@@ -30,11 +30,12 @@ Function Get-LogEntryFromCMXML {
             #build entry
             $entry = new-object logEntry
             $entry.Message = $match.groups[1].value
-            $entry.Component = $DetailsHash['component']
-            $entry.thread = $DetailsHash['thread']
+            $entry.Component = $Loghash['component']
+            $entry.thread = $Loghash['thread']
 
+            $Detailshash = @{}
             if ($AllDetails.IsPresent){
-                $entry.details = [PSCustomObject]$DetailsHash 
+                $DetailsHash += $Loghash
             }
 
             $DateTimeString = "$($DetailsHash['Date']) $($DetailsHash['time'].split('.')[0])"
@@ -43,6 +44,24 @@ Function Get-LogEntryFromCMXML {
             $entry.datetime = $datetime
             
             $entry.severity = Get-LogEntrySeverity -Message $match.groups[1].value
+            if ($entry.severity -eq [severity]::Error){
+                [int]$errorcode = Get-LogEntryErrorMessage -message $message
+                if ($errorcode -eq 0 ){
+                    $entry.severity = [Severity]::normal
+                }else{
+                    Try{
+                        $ErrorHash = @{
+                            Errorcode = $errorcode
+                            ErrorMessage = [System.ComponentModel.Win32Exception]$errorcode
+                        }
+                        $DetailsHash += $ErrorHash
+                    }
+                    Catch{
+                        Write-verbose -message "Could not convert $errorcode to error message"
+                    }
+                }
+            }
+            $entry.details = [PSCustomObject]$DetailsHash
             $null = $logEntries.add($entry)
         }
     }

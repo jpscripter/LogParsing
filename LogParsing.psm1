@@ -30,7 +30,7 @@ class LogDetails
     LogDetails (){
         $this.LogEntry = new-object Collections.arraylist
     }
-    [System.IO.StreamReader] $StreamReader
+    [int] $StreamReaderPosition
     [string] $type
     [Collections.arraylist] $LogEntry
     [string]$logParsingParams

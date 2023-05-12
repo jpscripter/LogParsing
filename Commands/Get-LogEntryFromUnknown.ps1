@@ -20,7 +20,24 @@ Function Get-LogEntryFromUnknown{
             $entry.Message = $match
             if ([String]::IsNullOrWhiteSpace($match)){Continue}
             $entry.Severity = Get-LogEntrySeverity -message $match
-
+            if ($entry.severity -eq [severity]::Error){
+                [int]$errorcode = Get-LogEntryErrorMessage -message $message
+                if ($errorcode -eq 0 ){
+                    $entry.severity = [Severity]::normal
+                }else{
+                    Try{
+                        $DetailsHash = [PSCustomObject]@{
+                            Errorcode = $errorcode
+                            ErrorMessage = [System.ComponentModel.Win32Exception]$errorcode
+                        }
+                        $entry.details = $DetailsHash
+                    }
+                    Catch{
+                        Write-verbose -message "Could not convert $errorcode to error message"
+                    }
+                }
+            }
+            
             $Date = [regex]::match($match, $DatePattern).value
             $Time = [regex]::match($match, $TimePattern).value
             $DateTimeString = "$date $Time"

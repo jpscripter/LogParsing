@@ -58,7 +58,7 @@ Function Get-LogEntryFromIIS {
             #skip if cant passe date
             if ( $DetailsHash.ContainsKey('Date') -and $DetailsHash.ContainsKey('time')){
                 if ($AllDetails.IsPresent){
-                    $entry.details = $DetailsHash | ConvertTo-Json
+                    $entry.details = $DetailsHash 
                 }
                 $DateTimeString = "$($DetailsHash['Date']) $($DetailsHash['time'].split('.')[0])"
                 $datetime = 0
