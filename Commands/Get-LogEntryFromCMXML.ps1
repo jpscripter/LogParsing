@@ -37,8 +37,7 @@ Function Get-LogEntryFromCMXML {
             if ($AllDetails.IsPresent){
                 $DetailsHash += $Loghash
             }
-
-            $DateTimeString = "$($DetailsHash['Date']) $($DetailsHash['time'].split('.')[0])"
+            $DateTimeString = "$($Loghash['Date']) $($Loghash['time'].split('.')[0])"
             $datetime = 0
             $Null = [datetime]::TryParse($DateTimeString, [ref] $datetime)
             $entry.datetime = $datetime
