@@ -1,9 +1,34 @@
 
 Function Get-Log { 
+<#
+.SYNOPSIS
+Used to get the parsed log content for a log. 
+
+.DESCRIPTION
+This is the entry point for each of the specific log formats. It will determine the log format and parse it accordingly. 
+
+.PARAMETER Credential
+Credential to log in with
+
+.PARAMETER LogonType
+How this credential will log in (Default is NetOnly but Interactive is also common)
+
+.PARAMETER NewContentOnly
+Only returns the content that was written since the last read.
+
+.EXAMPLE
+PS> $Cred = Get-Credential
+Get-CredentialToken -Credential $Cred
+
+.LINK
+http://www.JPScripter.com
+
+#>
     param(
         [parameter(Mandatory=$true,ValueFromPipeline)]
         [System.IO.FileInfo]$File,
-        [switch] $AllDetails
+        [switch] $AllDetails,
+        [switch] $NewContentOnly
     )
     Begin{
         $DatePattern = '\d{1,2}[\/]\d{1,2}[\/]\d{4}'
@@ -22,8 +47,10 @@ Function Get-Log {
         $sr = [System.IO.StreamReader]::new($fs);
         
         #Pickup where we left off unless the log rolled over
-        if ($script:LogFiles[$File.FullName].StreamReaderPosition -le $sr.BaseStream.length){
-            $sr.BaseStream.Position = $script:LogFiles[$File.FullName].StreamReaderPosition
+        if ($NewContentOnly.IsPresent){
+            if ($script:LogFiles[$File.FullName].StreamReaderPosition -le $sr.BaseStream.length){
+                $sr.BaseStream.Position = $script:LogFiles[$File.FullName].StreamReaderPosition
+            }
         }
         
         # find new entries

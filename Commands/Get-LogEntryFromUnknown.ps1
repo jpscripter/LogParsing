@@ -1,5 +1,28 @@
 
 Function Get-LogEntryFromUnknown{ 
+<#
+.SYNOPSIS
+Used to parse an unknown file format. This mostly looks for keywords and dates.
+
+.DESCRIPTION
+This is the catchall for unknown log formates. if there is a common log format for your organization, you should add it to the modules by updating the get-logtype cmdlet and adding your own parsing logic. 
+
+.PARAMETER LogContent
+the -raw log content that you want broken into different entries. 
+
+.PARAMETER AllDetails
+Does nothing and is for splatting in the main get-log cmdlet. This is mostly only for CMXML and iis logs 
+
+.EXAMPLE
+$LogSplat = @{
+    AllDetails = $AllDetails.IsPresent
+    LogContent = $LogContent
+}
+$logEntries = Get-LogEntryFromUnknown @LogSplat
+
+.LINK
+http://www.JPScripter.com
+#>
     param(
         [parameter(Mandatory=$true,ValueFromPipeline)]
         [string]$LogContent,
@@ -23,8 +46,6 @@ Function Get-LogEntryFromUnknown{
             if ($entry.severity -eq [severity]::Error){
                 [int]$errorcode = Get-LogEntryErrorMessage -message $message
                 if ($errorcode -eq 0 ){
-                    $entry.severity = [Severity]::normal
-                }else{
                     Try{
                         $DetailsHash = [PSCustomObject]@{
                             Errorcode = $errorcode
@@ -33,11 +54,11 @@ Function Get-LogEntryFromUnknown{
                         $entry.details = $DetailsHash
                     }
                     Catch{
-                        Write-verbose -message "Could not convert $errorcode to error message"
+                        Write-verbose -message "Could not convert $errorcode to error message:`n$message"
                     }
                 }
             }
-            
+
             $Date = [regex]::match($match, $DatePattern).value
             $Time = [regex]::match($match, $TimePattern).value
             $DateTimeString = "$date $Time"

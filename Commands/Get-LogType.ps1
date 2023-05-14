@@ -1,5 +1,22 @@
 
 Function Get-LogType { 
+    <#
+.SYNOPSIS
+Used to quickly and efficiantly get the log format. 
+
+.DESCRIPTION
+This cmdlet is supposed to be as efficiant as possible and find the log formate for the log. We then save use a module scope script variable to record that for future lookup. This lets us know the log format and write more targetted parsing. 
+
+.PARAMETER File
+File object to the log file
+
+.EXAMPLE
+PS C:\> Get-LogType -File C:\TestLogs\ConfigMgrAdminUISetup.log
+CMXML
+
+.LINK
+http://www.JPScripter.com
+#>
     param(
         [parameter(Mandatory=$true,ValueFromPipeline)]
         [System.IO.FileInfo]$File

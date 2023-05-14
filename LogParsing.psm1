@@ -1,11 +1,10 @@
 #region settings
 $script:LogFiles = @{}
-$script:LinesToKeep = 2000
-$script:ErrorKeywords = @('fail','error', 'unsuccessful')
+$script:ErrorKeywords = @('fail','error[:\s]', 'unsuccessful')
 $script:WarningKeywords = @('warning')
 $script:DebugKeywords = @('debug')
 $script:VerboseKeywords = @('verbose')
-$script:InformationKeywords = @('info:','STATMSG:')
+$script:InformationKeywords = @('info','STATMSG')
 #endregion
 
 #region classes

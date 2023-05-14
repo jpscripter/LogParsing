@@ -1,5 +1,28 @@
 
 Function Get-LogEntryFromCMXML { 
+<#
+.SYNOPSIS
+Used to parse one of the Configmgr log file format. THis formate has an XML like attribute tag for each line. 
+
+.DESCRIPTION
+This format is specific to the Configmgr log format and pulls the XML like attributes on each line
+
+.PARAMETER LogContent
+the -raw log content that you want broken into different entries. 
+
+.PARAMETER AllDetails
+This creates a PSCustom object for all of the properties in the XML attributes tag for advanced usage.
+
+.EXAMPLE
+$LogSplat = @{
+    AllDetails = $AllDetails.IsPresent
+    LogContent = $LogContent
+}
+$logEntries = Get-LogEntryFromCMXML @LogSplat 
+
+.LINK
+http://www.JPScripter.com
+#>
     param(
         [parameter(Mandatory=$true,ValueFromPipeline)]
         [string]$LogContent,
@@ -46,8 +69,6 @@ Function Get-LogEntryFromCMXML {
             if ($entry.severity -eq [severity]::Error){
                 [int]$errorcode = Get-LogEntryErrorMessage -message $message
                 if ($errorcode -eq 0 ){
-                    $entry.severity = [Severity]::normal
-                }else{
                     Try{
                         $ErrorHash = @{
                             Errorcode = $errorcode
@@ -56,7 +77,7 @@ Function Get-LogEntryFromCMXML {
                         $DetailsHash += $ErrorHash
                     }
                     Catch{
-                        Write-verbose -message "Could not convert $errorcode to error message"
+                        Write-verbose -message "Could not convert $errorcode to error message:`n$message"
                     }
                 }
             }

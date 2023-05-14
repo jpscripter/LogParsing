@@ -1,5 +1,28 @@
 
 Function Get-LogEntryFromIIS { 
+    <#
+.SYNOPSIS
+Used to parse an IIS log file format. 
+
+.DESCRIPTION
+This format is specific to the IIS log format and pulls the fields from the fields header. 
+
+.PARAMETER LogContent
+the -raw log content that you want broken into different entries. 
+
+.PARAMETER AllDetails
+This creates a PSCustom object for all of the properties in the fields header for advanced usage.
+
+.EXAMPLE
+$LogSplat = @{
+    AllDetails = $AllDetails.IsPresent
+    LogContent = $LogContent
+}
+$logEntries = Get-LogEntryFromIIS @LogSplat 
+
+.LINK
+http://www.JPScripter.com
+#>
     param(
         [parameter(Mandatory=$true,ValueFromPipeline)]
         [string]$LogContent,
