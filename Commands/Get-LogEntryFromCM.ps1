@@ -1,5 +1,28 @@
 
 Function Get-LogEntryFromCM { 
+    <#
+.SYNOPSIS
+Used to parse one of the Configmgr log file format. 
+
+.DESCRIPTION
+This format is specific to the Configmgr log format that has some attributes separated by the $$
+
+.PARAMETER LogContent
+the -raw log content that you want broken into different entries. 
+
+.PARAMETER AllDetails
+Does nothing and is for splatting in the main get-log cmdlet. This is mostly only for CMXML and iis logs 
+
+.EXAMPLE
+$LogSplat = @{
+    AllDetails = $AllDetails.IsPresent
+    LogContent = $LogContent
+}
+$logEntries = Get-LogEntryFromCM @LogSplat 
+
+.LINK
+http://www.JPScripter.com
+#>
     param(
         [parameter(Mandatory=$true,ValueFromPipeline)]
         [string]$LogContent,
@@ -24,9 +47,8 @@ Function Get-LogEntryFromCM {
             $entry.severity = Get-LogEntrySeverity -Message $message
             if ($entry.severity -eq [severity]::Error){
                 [int]$errorcode = Get-LogEntryErrorMessage -message $message
-                if ($errorcode -eq 0 ){
-                    $entry.severity = [Severity]::normal
-                }else{
+                if ($errorcode -ne 0 )
+                {
                     Try{
                         $DetailsHash = [PSCustomObject]@{
                             Errorcode = $errorcode
@@ -35,7 +57,7 @@ Function Get-LogEntryFromCM {
                         $entry.details = $DetailsHash
                     }
                     Catch{
-                        Write-verbose -message "Could not convert $errorcode to error message"
+                        Write-verbose -message "Could not convert $errorcode to error message:`n$message"
                     }
                 }
             }

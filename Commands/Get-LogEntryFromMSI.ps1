@@ -1,5 +1,31 @@
 
 Function Get-LogEntryFromMSI { 
+<#
+.SYNOPSIS
+Used to parse an MSI log file format. 
+
+.DESCRIPTION
+This format is specific to the msi log format and requires the date to be passed-in because the full date isnt on each line of the log
+
+.PARAMETER LogContent
+the -raw log content that you want broken into different entries. 
+
+.PARAMETER AllDetails
+Does nothing and is for splatting in the main get-log cmdlet. This is mostly only for CMXML and iis logs 
+
+.PARAMETER date
+string date in in the dd\MM\yyyy format that is used to parse the full date from the log entries.
+
+.EXAMPLE
+$LogSplat = @{
+    AllDetails = $AllDetails.IsPresent
+    LogContent = $LogContent
+}
+$logEntries = Get-LogEntryFromMSI @LogSplat -Date '05\20\2023'
+
+.LINK
+http://www.JPScripter.com
+#>
     param(
         [parameter(Mandatory=$true,ValueFromPipeline)]
         [string]$LogContent,
@@ -21,8 +47,6 @@ Function Get-LogEntryFromMSI {
                 if ($entry.severity -eq [severity]::Error){
                     [int]$errorcode = Get-LogEntryErrorMessage -message $message
                     if ($errorcode -eq 0){
-                        $entry.severity = [Severity]::normal
-                    }else{
                         Try{
                             $DetailsHash = [PSCustomObject]@{
                                 Errorcode = $errorcode
@@ -31,7 +55,7 @@ Function Get-LogEntryFromMSI {
                             $entry.details = $DetailsHash
                         }
                         Catch{
-                            Write-verbose -message "Could not convert $errorcode to error message"
+                            Write-verbose -message "Could not convert $errorcode to error message:`n$message"
                         }
                     }
                 }
