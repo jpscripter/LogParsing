@@ -1,5 +1,6 @@
 #region settings
 $script:LogFiles = @{}
+$script:CacheLogs = $false
 $script:ErrorKeywords = @('fail','error[:\s]', 'unsuccessful')
 $script:WarningKeywords = @('warning')
 $script:DebugKeywords = @('debug')

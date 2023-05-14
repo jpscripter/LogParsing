@@ -48,13 +48,17 @@ http://www.JPScripter.com
         
         #Pickup where we left off unless the log rolled over
         if ($NewContentOnly.IsPresent){
-            if ($script:LogFiles[$File.FullName].StreamReaderPosition -le $sr.BaseStream.length){
+            if ($script:LogFiles[$File.FullName].StreamReaderPosition -eq $sr.BaseStream.length){
+                return
+            }elseif($script:LogFiles[$File.FullName].StreamReaderPosition -lt $sr.BaseStream.length){
                 $sr.BaseStream.Position = $script:LogFiles[$File.FullName].StreamReaderPosition
             }
         }
         
         # find new entries
         $LogContent = $sr.ReadToEnd()
+        $script:LogFiles[$File.FullName].StreamReaderPosition = $sr.BaseStream.Position 
+
         if (-not [string]::IsNullOrWhiteSpace($LogContent)){
             $LogSplat = @{
                 AllDetails = $AllDetails.IsPresent
@@ -91,9 +95,11 @@ http://www.JPScripter.com
         
             #save to memory and return
             #wait-debugger
-            $script:LogFiles[$File.FullName].LogEntry += $logEntries
+            if ($script:CacheLogs){
+                $script:LogFiles[$File.FullName].LogEntry += $logEntries
+            }
         }
-        $script:LogFiles[$File.FullName].LogEntry 
+        $logEntries
 
         #close stream
         $sr.close()
