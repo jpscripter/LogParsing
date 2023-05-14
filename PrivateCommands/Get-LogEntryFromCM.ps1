@@ -1,11 +1,11 @@
 
-Function Get-LogEntryFromUnknown{ 
-<#
+Function Get-LogEntryFromCM { 
+    <#
 .SYNOPSIS
-Used to parse an unknown file format. This mostly looks for keywords and dates.
+Used to parse one of the Configmgr log file format. 
 
 .DESCRIPTION
-This is the catchall for unknown log formates. if there is a common log format for your organization, you should add it to the modules by updating the get-logtype cmdlet and adding your own parsing logic. 
+This format is specific to the Configmgr log format that has some attributes separated by the $$
 
 .PARAMETER LogContent
 the -raw log content that you want broken into different entries. 
@@ -18,7 +18,7 @@ $LogSplat = @{
     AllDetails = $AllDetails.IsPresent
     LogContent = $LogContent
 }
-$logEntries = Get-LogEntryFromUnknown @LogSplat
+$logEntries = Get-LogEntryFromCM @LogSplat 
 
 .LINK
 http://www.JPScripter.com
@@ -29,23 +29,27 @@ http://www.JPScripter.com
         [switch] $AllDetails
     )
     Begin{
-        $DatePattern = '\d{1,2}[\/-]\d{1,2}[\/-]\d{4}'
-        $TimePattern = '\d{1,2}[:]\d{1,2}(([:]\d{1,4})|)'
+        $pattern = '(.*)\$\$<(.*)><(.*)><thread=([0-9]*).*>'
     }
     Process {
 
         # find new entries
-        $LogMatches = $LogContent.Split("`n")
+        $LogMatches = [regex]::matches($LogContent,$pattern)
         $logEntries = new-object -TypeName Collections.arraylist
         foreach($match in $LogMatches){
+           
             #build entry
             $entry = new-object logEntry
-            $entry.Message = $match
-            if ([String]::IsNullOrWhiteSpace($match)){Continue}
-            $entry.Severity = Get-LogEntrySeverity -message $match
+            $message =  $match.groups[1].value
+            if ([string]::IsNullOrEmpty($Message)){Continue}
+            $entry.Message = $message
+            $entry.Component = $match.groups[2].value
+            $entry.thread = $match.groups[4].value 
+            $entry.severity = Get-LogEntrySeverity -Message $message
             if ($entry.severity -eq [severity]::Error){
                 [int]$errorcode = Get-LogEntryErrorMessage -message $message
-                if ($errorcode -eq 0 ){
+                if ($errorcode -ne 0 )
+                {
                     Try{
                         $DetailsHash = [PSCustomObject]@{
                             Errorcode = $errorcode
@@ -58,10 +62,7 @@ http://www.JPScripter.com
                     }
                 }
             }
-
-            $Date = [regex]::match($match, $DatePattern).value
-            $Time = [regex]::match($match, $TimePattern).value
-            $DateTimeString = "$date $Time"
+            $DateTimeString = "$($match.groups[3].value.split('.')[0])"
             $datetime = 0
             $Null = [datetime]::TryParse($DateTimeString, [ref] $datetime)
             $entry.datetime = $datetime

@@ -59,6 +59,7 @@ http://www.JPScripter.com
 
             #build entry
             $entry = new-object logEntry
+            if ([string]::IsNullOrEmpty($match)){Continue}
             $entry.Message = $match
             $entry.Component = $DetailsHash['cs-uri-stem']
             

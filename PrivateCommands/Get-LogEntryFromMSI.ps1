@@ -39,27 +39,29 @@ http://www.JPScripter.com
         # find new entries
         $lines = $LogContent.split("`n")
         $logEntries = new-object -TypeName Collections.arraylist
-        foreach($line in $lines){
-            if ($entry -and $line.StartsWith('MSI')){
-                #Finalize entry
-                $entry.Message = $Message
-                $entry.severity =  Get-LogEntrySeverity -Message $message
-                if ($entry.severity -eq [severity]::Error){
-                    [int]$errorcode = Get-LogEntryErrorMessage -message $message
-                    if ($errorcode -eq 0){
-                        Try{
-                            $DetailsHash = [PSCustomObject]@{
-                                Errorcode = $errorcode
-                                ErrorMessage = [System.ComponentModel.Win32Exception]$errorcode
+        :line foreach($line in $lines){
+            if($line.StartsWith('MSI')){
+                if ($entry){
+                    #Finalize entry
+                    $entry.Message = $Message
+                    $entry.severity =  Get-LogEntrySeverity -Message $message
+                    if ($entry.severity -eq [severity]::Error){
+                        [int]$errorcode = Get-LogEntryErrorMessage -message $message
+                        if ($errorcode -eq 0){
+                            Try{
+                                $DetailsHash = [PSCustomObject]@{
+                                    Errorcode = $errorcode
+                                    ErrorMessage = [System.ComponentModel.Win32Exception]$errorcode
+                                }
+                                $entry.details = $DetailsHash
                             }
-                            $entry.details = $DetailsHash
-                        }
-                        Catch{
-                            Write-verbose -message "Could not convert $errorcode to error message:`n$message"
+                            Catch{
+                                Write-verbose -message "Could not convert $errorcode to error message:`n$message"
+                            }
                         }
                     }
+                    $null = $logEntries.add($entry)
                 }
-                $null = $logEntries.add($entry)
 
                 #start next entry
                 $entry = new-Object LogEntry
@@ -87,6 +89,7 @@ http://www.JPScripter.com
         #get last item
         $entry.Message = $Message
         $entry.severity =  Get-LogEntrySeverity -Message $message
+
         if ($entry.severity -eq [severity]::Error){
             [int]$errorcode = Get-LogEntryErrorMessage -message $message
             if ($errorcode -eq 0){
@@ -104,6 +107,7 @@ http://www.JPScripter.com
                 }
             }
         }
+        
         $null = $logEntries.add($entry)
     }
     End {

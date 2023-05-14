@@ -52,6 +52,7 @@ http://www.JPScripter.com
 
             #build entry
             $entry = new-object logEntry
+            if ([string]::IsNullOrEmpty($match.groups[1].value)){Continue}
             $entry.Message = $match.groups[1].value
             $entry.Component = $Loghash['component']
             $entry.thread = $Loghash['thread']
