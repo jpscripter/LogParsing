@@ -1,4 +1,0 @@
-﻿<02-26-2023 19:49:57> ====================================================================
-﻿<02-26-2023 19:49:57> SMSExec COM registry setup started....
-﻿<02-26-2023 19:49:57> Command line: "C:\Program Files\Microsoft Configuration Manager\bin\x64\comregsetup.exe" /install /siteserver:CM1
-﻿<02-26-2023 19:49:57> SMSExec COM registry setup completed; exit code = 0.
