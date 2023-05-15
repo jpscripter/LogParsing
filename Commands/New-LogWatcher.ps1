@@ -13,8 +13,12 @@ File object to the log file
 What actions should we pass through into the scriptblock
 
 .EXAMPLE
-PS C:\> New-LogWatcher -File C:\TestLogs\ConfigMgrAdminUISetup.log
-CMXML
+PS C:\> $watcher = New-LogWatcher -File 'C:\TestLogs\CM\adctrl.log' -scriptblock {
+>> if ($_.message -like '*test*'){ Write-verbose $_.message}
+>> }
+PS C:\> VERBOSE: Exiting SMS_EN_ADSERVICE_MONITOR threadtest ...  
+
+PS C:\> $watcher.Dispose()
 
 .LINK
 http://www.JPScripter.com
@@ -31,16 +35,16 @@ http://www.JPScripter.com
 
         #Set watcher at end of log
         $logType = Get-logtype -File $file 
-        Write-Verbose -Message "Adding watcher for $logType : $file"
+        Write-Debug -Message "Adding watcher for $logType : $file"
         $fs = [System.IO.FileStream]::new($File.fullname, 'Open', 'Read', [System.IO.FileShare]::ReadWrite + [System.IO.FileShare]::Delete)
         $sr = [System.IO.StreamReader]::new($fs);
         $script:LogFiles[$File.FullName].StreamReaderPosition = $sr.BaseStream.Length 
 
         $EventAction = @"
             #Wait-Debugger
-            Write-Verbose -Message "`$(`$eventArgs.fullpath) "
+            Write-Debug -Message "`$(`$eventArgs.fullpath) "
             `$Logs = Get-Log -file `$eventArgs.fullpath -NewContentOnly 
-            Write-Verbose -Message "`$(`$logs.count) new log entries"
+            Write-Debug -Message "`$(`$logs.count) new log entries"
             `$Logs.foreach({$Scriptblock})
 "@
         $directory = $file.Directory.FullName
