@@ -70,7 +70,7 @@ http://www.JPScripter.com
             
             $entry.severity = Get-LogEntrySeverity -Message $match.groups[1].value
             if ($entry.severity -eq [severity]::Error){
-                [int]$errorcode = Get-LogEntryErrorMessage -message $message
+                [int]$errorcode = Get-LogEntryErrorMessage -message $match.groups[1].value
                 if ($errorcode -eq 0){
                     $entry.severity = [Severity]::normal
                 }else{

@@ -47,7 +47,7 @@ http://www.JPScripter.com
             if ([String]::IsNullOrWhiteSpace($match)){Continue}
             $entry.Severity = Get-LogEntrySeverity -message $match
             if ($entry.severity -eq [severity]::Error){
-                [int]$errorcode = Get-LogEntryErrorMessage -message $message
+                [int]$errorcode = Get-LogEntryErrorMessage -message $match
                 if ($errorcode -eq 0){
                     $entry.severity = [Severity]::normal
                 }else{
