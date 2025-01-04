@@ -42,7 +42,7 @@ http://www.JPScripter.com
             #build entry
             $entry = new-object logEntry
             if ([string]::IsNullOrEmpty($match)){Continue}
-            $entry.Message = $match
+            $entry.Message = $match.Trim()
             $entry.Source = $source
             if ([String]::IsNullOrWhiteSpace($match)){Continue}
             $entry.Severity = Get-LogEntrySeverity -message $match

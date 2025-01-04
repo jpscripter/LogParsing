@@ -89,7 +89,7 @@ http://www.JPScripter.com
 
         }
         #get last item
-        $entry.Message = $Message
+        $entry.Message = $Message.Trim()
         $entry.severity =  Get-LogEntrySeverity -Message $message
 
         if ($entry.severity -eq [severity]::Error){
