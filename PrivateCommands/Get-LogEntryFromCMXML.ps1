@@ -63,7 +63,7 @@ http://www.JPScripter.com
             if ($AllDetails.IsPresent){
                 $DetailsHash += $Loghash
             }
-            $DateTimeString = "$($Loghash['Date']) $($Loghash['time'].split('.')[0])"
+            $DateTimeString = "$($Loghash['Date']) $($Loghash['time'].split('-').split('+')[0])"
             $datetime = 0
             $Null = [datetime]::TryParse($DateTimeString, [ref] $datetime)
             $entry.datetime = $datetime
