@@ -7,11 +7,11 @@ Used to get the parsed log content for a log.
 .DESCRIPTION
 This is the entry point for each of the specific log formats. It will determine the log format and parse it accordingly. 
 
-.PARAMETER Credential
-Credential to log in with
+.PARAMETER Tail
+Only Read the last part of the log. Length of the file in characters less this tails offset will be the start position.
 
-.PARAMETER LogonType
-How this credential will log in (Default is NetOnly but Interactive is also common)
+.PARAMETER AllDetails
+Include all details that could be parsed from the file. 
 
 .PARAMETER NewContentOnly
 Only returns the content that was written since the last read.
@@ -27,6 +27,7 @@ http://www.JPScripter.com
     param(
         [parameter(Mandatory=$true,ValueFromPipeline)]
         [System.IO.FileInfo]$File,
+        [int]$Tail = 0,
         [switch] $AllDetails,
         [switch] $NewContentOnly
     )
@@ -53,6 +54,14 @@ http://www.JPScripter.com
             }elseif($script:LogFiles[$File.FullName].StreamReaderPosition -lt $sr.BaseStream.length){
                 $sr.BaseStream.Position = $script:LogFiles[$File.FullName].StreamReaderPosition
             }
+        # if new log and only grabbing the last part of the log
+        }elseif(($tail -ne 0)){
+            $newLocation = $sr.BaseStream.Length - $tail
+            if ($newLocation -gt $sr.BaseStream.position -and $newLocation -lt $sr.BaseStream.length){
+                $sr.BaseStream.position = $newLocation
+            } else{
+                Write-Warning -Message "$tail offset is out of the range of the file."
+            }
         }
         
         # find new entries
@@ -63,6 +72,7 @@ http://www.JPScripter.com
             $LogSplat = @{
                 AllDetails = $AllDetails.IsPresent
                 LogContent = $LogContent
+                Source = $script:LogFiles[$File.FullName].Source
             }
             switch ($LogType){
                 'CMXML' {

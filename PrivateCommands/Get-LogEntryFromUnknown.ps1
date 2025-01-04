@@ -26,6 +26,7 @@ http://www.JPScripter.com
     param(
         [parameter(Mandatory=$true,ValueFromPipeline)]
         [string]$LogContent,
+        [string]$Source,
         [switch] $AllDetails
     )
     Begin{
@@ -42,11 +43,14 @@ http://www.JPScripter.com
             $entry = new-object logEntry
             if ([string]::IsNullOrEmpty($match)){Continue}
             $entry.Message = $match
+            $entry.Source = $source
             if ([String]::IsNullOrWhiteSpace($match)){Continue}
             $entry.Severity = Get-LogEntrySeverity -message $match
             if ($entry.severity -eq [severity]::Error){
                 [int]$errorcode = Get-LogEntryErrorMessage -message $message
-                if ($errorcode -eq 0 ){
+                if ($errorcode -eq 0){
+                    $entry.severity = [Severity]::normal
+                }else{
                     Try{
                         $DetailsHash = [PSCustomObject]@{
                             Errorcode = $errorcode

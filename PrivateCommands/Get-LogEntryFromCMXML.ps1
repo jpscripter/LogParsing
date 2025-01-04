@@ -26,6 +26,7 @@ http://www.JPScripter.com
     param(
         [parameter(Mandatory=$true,ValueFromPipeline)]
         [string]$LogContent,
+        [string]$Source,
         [switch] $AllDetails
     )
     Begin{
@@ -56,6 +57,7 @@ http://www.JPScripter.com
             $entry.Message = $match.groups[1].value
             $entry.Component = $Loghash['component']
             $entry.thread = $Loghash['thread']
+            $entry.Source = $source
 
             $Detailshash = @{}
             if ($AllDetails.IsPresent){
@@ -69,7 +71,9 @@ http://www.JPScripter.com
             $entry.severity = Get-LogEntrySeverity -Message $match.groups[1].value
             if ($entry.severity -eq [severity]::Error){
                 [int]$errorcode = Get-LogEntryErrorMessage -message $message
-                if ($errorcode -eq 0 ){
+                if ($errorcode -eq 0){
+                    $entry.severity = [Severity]::normal
+                }else{
                     Try{
                         $ErrorHash = @{
                             Errorcode = $errorcode

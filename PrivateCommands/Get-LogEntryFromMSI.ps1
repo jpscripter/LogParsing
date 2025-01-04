@@ -29,6 +29,7 @@ http://www.JPScripter.com
     param(
         [parameter(Mandatory=$true,ValueFromPipeline)]
         [string]$LogContent,
+        [string]$Source,
         [string]$date,
         [switch] $AllDetails
     )
@@ -44,6 +45,7 @@ http://www.JPScripter.com
                 if ($entry){
                     #Finalize entry
                     $entry.Message = $Message
+                    $entry.Source = $source
                     $entry.severity =  Get-LogEntrySeverity -Message $message
                     if ($entry.severity -eq [severity]::Error){
                         [int]$errorcode = Get-LogEntryErrorMessage -message $message

@@ -26,6 +26,7 @@ http://www.JPScripter.com
     param(
         [parameter(Mandatory=$true,ValueFromPipeline)]
         [string]$LogContent,
+        [string]$Source,
         [string] $headers,
         [switch] $AllDetails
     )
@@ -62,6 +63,7 @@ http://www.JPScripter.com
             if ([string]::IsNullOrEmpty($match)){Continue}
             $entry.Message = $match
             $entry.Component = $DetailsHash['cs-uri-stem']
+            $entry.Source = $source
             
             # custom iis errors
             switch ($DetailsHash['sc-status']){

@@ -24,6 +24,7 @@ class LogEntry{
     [int] $thread
     [PSCustomObject] $details
     [Severity] $severity = 1
+    [string] $Source
 }
 class LogDetails 
 {
@@ -34,6 +35,7 @@ class LogDetails
     [string] $type
     [Collections.arraylist] $LogEntry
     [string]$logParsingParams
+    [string] $Source
 }
 #endregion
 

@@ -78,6 +78,7 @@ http://www.JPScripter.com
             #Make memory Object
             $LogDetails = new-object -TypeName LogDetails 
             $LogDetails.Type = $logtype
+            $LogDetails.Source = $File.FullName
             $sr.close()
             $sr.Dispose()
             $FS.Close()
